@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.5.15.0" projectFile="D:\Git\webapi\Sandcastle.shfbproj" started="12-2-2018 12:43:45">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    D:\Git\webapi
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.7&#39; located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2017.5.15.0
+Copyright &#169; 2006-2017, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\Git\webapi\Api\Api.csproj
+    Found project &#39;D:\Git\webapi\Api\Api.csproj&#39;
+Source: D:\Git\webapi\Auth\Auth.csproj
+    Found project &#39;D:\Git\webapi\Auth\Auth.csproj&#39;
+Source: D:\Git\webapi\Business\Business.csproj
+    Found project &#39;D:\Git\webapi\Business\Business.csproj&#39;
+Source: D:\Git\webapi\Model\Model.csproj
+    Found project &#39;D:\Git\webapi\Model\Model.csproj&#39;
+Source: D:\Git\webapi\SpotifyWebApi\SpotifyWebApi.csproj
+    Found project &#39;D:\Git\webapi\SpotifyWebApi\SpotifyWebApi.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;D:\Git\webapi\Api\bin\Debug\SpotifyWebApi.Api.dll&#39;
+    Found assembly &#39;D:\Git\webapi\Auth\bin\Debug\SpotifyWebApi.Auth.dll&#39;
+    Found assembly &#39;D:\Git\webapi\Business\bin\Debug\SpotifyWebApi.Business.dll&#39;
+    Found assembly &#39;D:\Git\webapi\Model\bin\Debug\SpotifyWebApi.Model.dll&#39;
+    Found assembly &#39;D:\Git\webapi\SpotifyWebApi\bin\Debug\SpotifyWebApi.dll&#39;
+
+References to include (excluding framework assemblies):
+    Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
+
+Copying XML comments files
+    D:\Git\webapi\Api\bin\Debug\SpotifyWebApi.Api.xml -&gt; D:\Git\webapi\Docs\Working\SpotifyWebApi.Api.xml
+    D:\Git\webapi\Auth\bin\Debug\SpotifyWebApi.Auth.xml -&gt; D:\Git\webapi\Docs\Working\SpotifyWebApi.Auth.xml
+    D:\Git\webapi\Business\bin\Debug\SpotifyWebApi.Business.xml -&gt; D:\Git\webapi\Docs\Working\SpotifyWebApi.Business.xml
+    D:\Git\webapi\Model\bin\Debug\SpotifyWebApi.Model.xml -&gt; D:\Git\webapi\Docs\Working\SpotifyWebApi.Model.xml
+    D:\Git\webapi\SpotifyWebApi\bin\Debug\SpotifyWebApi.xml -&gt; D:\Git\webapi\Docs\Working\SpotifyWebApi.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Engels (Verenigde Staten))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0090
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0100
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 12-2-2018 12:43:47.
+Project &quot;D:\Git\webapi\Docs\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2017.5.15.0)
+  Copyright &#169; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 5 assemblies for reflection and 2 dependency assemblies.
+  Wrote information on 21 namespaces, 53 types, and 300 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2017.5.15.0)
+  Copyright &#169; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;D:\Git\webapi\Docs\Working\GenerateRefInfo.proj&quot; (default targets).
+    Last step completed in 00:00:00,6891
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
+Build started 12-2-2018 12:43:47.
+Project &quot;D:\Git\webapi\Docs\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2017.5.15.0)
+  Copyright &#169; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.ungrouped&quot;.
+  AddNamespaceGroups (v2017.5.15.0)
+  Copyright &#169; 2006-2017, Eric Woodruff, All Rights Reserved
+  Added 3 namespace group entries
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2017.5.15.0)
+  Copyright &#169; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+    Unique name M_SpotifyWebApi_Business_ApiHelper_JsonToObject__1_1 generated for M:SpotifyWebApi.Business.ApiHelper.JsonToObject``1(System.String)
+  XslTransform (v2017.5.15.0)
+  Copyright &#169; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;D:\Git\webapi\Docs\Working\TransformManifest.proj&quot; (default targets).
+    Last step completed in 00:00:00,4805
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0280
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
+Sandcastle Help File Builder and Tools, version 2017.5.15.0
+Copyright &#169; 2006-2017, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Reflection information will be retrieved from &#39;reflection.xml&#39;
+Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7\*.xml
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\4.4.0.0\*.xml
+Indexing D:\Git\webapi\Docs\Working\Newtonsoft.Json.xml
+Indexing D:\Git\webapi\Docs\Working\SpotifyWebApi.Api.xml
+Indexing D:\Git\webapi\Docs\Working\SpotifyWebApi.Auth.xml
+Indexing D:\Git\webapi\Docs\Working\SpotifyWebApi.Business.xml
+Indexing D:\Git\webapi\Docs\Working\SpotifyWebApi.Model.xml
+Indexing D:\Git\webapi\Docs\Working\SpotifyWebApi.xml
+Indexed 161209 members in 133 file(s).  6 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+
+Documentation merged successfully
+    Last step completed in 00:00:00,8610
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 12-2-2018 12:43:49.
+Project &quot;D:\Git\webapi\Docs\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2017.5.15.0)
+  Copyright &#169; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;D:\Git\webapi\Docs\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,2190
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,1501
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\Git\webapi\Docs\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
+Build started 12-2-2018 12:43:49.
+Project &quot;D:\Git\webapi\Docs\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2017.5.15.0)
+  Copyright &#169; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.Album] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.Artist] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.Browse] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.Follow] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.Personalization] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.Player] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.Playlist] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.Search] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.Track] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.UserLibrary] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Api.UserProfile] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Auth] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Auth.AuthorizationCode] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Business] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Model] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Copyright] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Copyright.Text] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Copyright.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Cursor] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Cursor.After] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.CursorPaging`1] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.CursorPaging`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.CursorPaging`1.Cursors] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.CursorPaging`1.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.CursorPaging`1.Items] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.CursorPaging`1.Limit] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.CursorPaging`1.Next] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.CursorPaging`1.Total] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Error] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Error.Message] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Error.Status] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Followers] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Followers.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Followers.Total] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.FullAlbum] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.AlbumType] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Artists] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.AvailableMarkets] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Copyrights] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.ExternalIds] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Genres] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Images] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Label] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Name] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Popularity] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.ReleaseDate] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.ReleaseDatePrecision] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Tracks] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullAlbum.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.FullArtist] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.Followers] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.Genres] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.Images] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.Name] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.Popularity] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullArtist.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.FullPlaylist] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Collaborative] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Description] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Followers] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Images] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Name] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Owner] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Public] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.SnapshotId] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.TrackList] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Tracks] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullPlaylist.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.FullTrack] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.Album] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.Artists] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.AvailableMarkets] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.DiscNumber] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.DurationMs] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SpotifyWebApi.Model.FullTrack.Equals(System.Object)] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SpotifyWebApi.Model.FullTrack.Equals(System.Object)] Missing &lt;returns&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SpotifyWebApi.Model.FullTrack.Equals(System.Object)] Missing &lt;param name=&quot;obj&quot;/&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.Explicit] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.ExternalIds] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SpotifyWebApi.Model.FullTrack.GetHashCode] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SpotifyWebApi.Model.FullTrack.GetHashCode] Missing &lt;returns&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.IsPlayable] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.LinkedFrom] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.Name] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.Popularity] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.PreviewUrl] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.TrackNumber] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.FullTrack.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Image] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Image.Height] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Image.Url] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Image.Width] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.LinkedFrom] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.LinkedFrom.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.LinkedFrom.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.LinkedFrom.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.LinkedFrom.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.LinkedFrom.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Paging`1] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Paging`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Paging`1.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Paging`1.Items] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Paging`1.Limit] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Paging`1.Next] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Paging`1.Offset] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Paging`1.Previous] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Paging`1.Total] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.PlaylistTrack] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PlaylistTrack.AddedAt] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PlaylistTrack.IsLocal] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PlaylistTrack.Track] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.PrivateUser] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Birthdate] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Country] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.DisplayName] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Email] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Followers] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Images] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Product] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PrivateUser.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.PublicUser] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PublicUser.DisplayName] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PublicUser.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PublicUser.Followers] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PublicUser.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PublicUser.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PublicUser.Images] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PublicUser.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.PublicUser.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.SimpleAlbum] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.AlbumType] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.Artists] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.AvailableMarkets] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.Images] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.Name] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleAlbum.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.SimpleArtist] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleArtist.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleArtist.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleArtist.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleArtist.Name] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleArtist.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleArtist.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.SimplePlaylist] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Collaborative] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Images] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Name] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Owner] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Public] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.SnapshotId] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Tracks] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimplePlaylist.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.SimpleTrack] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.Artists] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.AvailableMarkets] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.DiscNumber] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.DurationMs] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.Explicit] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.ExternalUrls] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.Href] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.Name] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.PreviewUrl] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.TrackNumber] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.SimpleTrack.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.WebResponse`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Model.Auth] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Auth.Token] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Auth.Token.AccessToken] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Auth.Token.ExpiresIn] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Auth.Token.IsExpired] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Auth.Token.RefreshToken] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Auth.Token.Scope] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Auth.Token.TokenGenerated] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Auth.Token.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Model.Enum] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Enum.AlbumType] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SpotifyWebApi.Model.Enum.EnumExtensions.AsString(SpotifyWebApi.Model.Enum.AlbumType)] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SpotifyWebApi.Model.Enum.EnumExtensions.AsString(SpotifyWebApi.Model.Enum.AlbumType)] Missing &lt;returns&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SpotifyWebApi.Model.Enum.EnumExtensions.AsString(SpotifyWebApi.Model.Enum.AlbumType)] Missing &lt;param name=&quot;albumType&quot;/&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Enum.Scope] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Enum.ScopeExtension] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Model.List] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.List.MultipleAlbums.Albums] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.List.MultipleArtists.Artists] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.List.MultiplePlaylists.Playlists] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.List.MultipleTracks.Tracks] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:SpotifyWebApi.Model.Uri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Uri.SpotifyUri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:SpotifyWebApi.Model.Uri.SpotifyUri.#ctor(System.String)] Missing &lt;param name=&quot;uri&quot;/&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Uri.SpotifyUri.Domain] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Uri.SpotifyUri.FullUri] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Uri.SpotifyUri.Id] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Uri.SpotifyUri.Type] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:SpotifyWebApi.Model.Uri.SpotifyUri.UserId] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:SpotifyWebApi.Model.Uri.UriType] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:SpotifyWebApi.Model] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:SpotifyWebApi.Auth] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [G:SpotifyWebApi.Api] Missing &lt;summary&gt; documentation [D:\Git\webapi\Docs\Working\BuildTopics.proj]
+  Processed 400 topic(s)
+  230 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 6 of 30.
+Done Building Project &quot;D:\Git\webapi\Docs\Working\BuildTopics.proj&quot; (default targets).
+    Last step completed in 00:00:06,5393
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2017.5.15.0
+Copyright &#169; 2006-2017, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in D:\Git\webapi\Docs\Working\Output\Website
+Processed 400 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to D:\Git\webapi\Docs\Working\WebKI.xml
+Saving website table of contents to D:\Git\webapi\Docs\Working\WebTOC.xml
+    Last step completed in 00:00:00,3094
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\AlertCaution.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\AlertNote.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\AlertSecurity.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\CFW.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\CodeExample.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\favicon.ico
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privclass.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privdelegate.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privenumeration.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privevent.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privextension.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privfield.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privinterface.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privmethod.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privproperty.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\privstructure.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protclass.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protdelegate.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protenumeration.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protevent.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protextension.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protfield.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protinterface.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protmethod.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protoperator.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protproperty.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\protstructure.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubclass.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubdelegate.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubenumeration.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubevent.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubextension.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubfield.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubinterface.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubmethod.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\puboperator.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubproperty.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\pubstructure.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\SectionCollapsed.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\SectionExpanded.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\slMobile.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\static.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\xna.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\Git\webapi\Docs\Working\Output\Website\scripts\branding.js
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-cs-CZ.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-de-DE.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-en-US.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-es-ES.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-fr-FR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-Help1.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-HelpViewer.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-it-IT.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-ja-JP.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-ko-KR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-pl-PL.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-pt-BR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-ru-RU.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-tr-TR.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-Website.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-zh-CN.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding-zh-TW.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\Git\webapi\Docs\Working\Output\Website\styles\branding.css
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; D:\Git\webapi\Docs\Working\Output\Website\index.html
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; D:\Git\webapi\Docs\Working\Output\Website\search.html
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; D:\Git\webapi\Docs\Working\Output\Website\SearchHelp.aspx
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; D:\Git\webapi\Docs\Working\Output\Website\SearchHelp.inc.php
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; D:\Git\webapi\Docs\Working\Output\Website\SearchHelp.php
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; D:\Git\webapi\Docs\Working\Output\Website\Web.Config
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; D:\Git\webapi\Docs\Working\Output\Website\html\GeneralError.htm
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; D:\Git\webapi\Docs\Working\Output\Website\html\PageNotFound.htm
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\Search.png
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\TocClose.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\TocCollapsed.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\TocExpanded.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\Git\webapi\Docs\Working\Output\Website\icons\TocOpen.gif
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\Git\webapi\Docs\Working\Output\Website\scripts\branding-Website.js
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\Git\webapi\Docs\Working\Output\Website\scripts\clipboard.min.js
+D:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; D:\Git\webapi\Docs\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00,2010
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:00,2540
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 615 files for the website content
+    Last step completed in 00:00:00,9537
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,1320
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 12-2-2018 12:43:57.  Total time: 00:00:12,2600
+
+</buildStep>
+</shfbBuild>

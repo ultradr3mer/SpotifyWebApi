@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="03bb02c5-8109-46ce-bccd-d6d53143a93d" Title="SpotifyWebApi" Url="html/R_Project_Documentation.htm">
+    <HelpTOCNode Id="5787c637-93cc-4f11-8206-2e6d0ef052ec" Title="SpotifyWebApi" Url="html/N_SpotifyWebApi.htm">
+      <HelpTOCNode Id="87c97c32-325c-4414-9b0c-b3593f6954e1" Title="ISpotifyWebApi Interface" Url="html/T_SpotifyWebApi_ISpotifyWebApi.htm">
+        <HelpTOCNode Id="581f842e-d983-4424-baf9-c9f7e7b7a98b" Title="ISpotifyWebApi Properties" Url="html/Properties_T_SpotifyWebApi_ISpotifyWebApi.htm">
+          <HelpTOCNode Title="Album Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Album.htm" />
+          <HelpTOCNode Title="Artist Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Artist.htm" />
+          <HelpTOCNode Title="Browse Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Browse.htm" />
+          <HelpTOCNode Title="Follow Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Follow.htm" />
+          <HelpTOCNode Title="Personalization Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Personalization.htm" />
+          <HelpTOCNode Title="Player Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Player.htm" />
+          <HelpTOCNode Title="Playlist Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Playlist.htm" />
+          <HelpTOCNode Title="Search Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Search.htm" />
+          <HelpTOCNode Title="Track Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Track.htm" />
+          <HelpTOCNode Title="UserLibrary Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_UserLibrary.htm" />
+          <HelpTOCNode Title="UserProfile Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_UserProfile.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="99317cfa-c2ce-4df5-b1f0-2aaca2b1ee21" Title="SpotifyWebApi Class" Url="html/T_SpotifyWebApi_SpotifyWebApi.htm">
+        <HelpTOCNode Title="SpotifyWebApi Constructor " Url="html/M_SpotifyWebApi_SpotifyWebApi__ctor.htm" />
+        <HelpTOCNode Id="5092a6d7-fa0e-4a86-bf04-8abbd5239421" Title="SpotifyWebApi Properties" Url="html/Properties_T_SpotifyWebApi_SpotifyWebApi.htm">
+          <HelpTOCNode Title="Album Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Album.htm" />
+          <HelpTOCNode Title="Artist Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Artist.htm" />
+          <HelpTOCNode Title="Browse Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Browse.htm" />
+          <HelpTOCNode Title="Follow Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Follow.htm" />
+          <HelpTOCNode Title="Personalization Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Personalization.htm" />
+          <HelpTOCNode Title="Player Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Player.htm" />
+          <HelpTOCNode Title="Playlist Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Playlist.htm" />
+          <HelpTOCNode Title="Search Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Search.htm" />
+          <HelpTOCNode Title="Track Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Track.htm" />
+          <HelpTOCNode Title="UserLibrary Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_UserLibrary.htm" />
+          <HelpTOCNode Title="UserProfile Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_UserProfile.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="979df696-4e9f-45da-b759-3ff06412f2c1" Title="SpotifyWebApi.Api Namespaces" Url="html/G_SpotifyWebApi_Api.htm">
+      <HelpTOCNode Id="86c47780-9a7a-4ffa-ad0d-06ab628333fd" Title="SpotifyWebApi.Api" Url="html/N_SpotifyWebApi_Api.htm">
+        <HelpTOCNode Id="a51a212c-a859-428f-aa5a-14e5e0893032" Title="BaseApi Class" Url="html/T_SpotifyWebApi_Api_BaseApi.htm">
+          <HelpTOCNode Title="BaseApi Constructor " Url="html/M_SpotifyWebApi_Api_BaseApi__ctor.htm" />
+          <HelpTOCNode Id="62fcee9c-2495-4be5-8699-2ee107c01628" Title="BaseApi Properties" Url="html/Properties_T_SpotifyWebApi_Api_BaseApi.htm">
+            <HelpTOCNode Title="Token Property " Url="html/P_SpotifyWebApi_Api_BaseApi_Token.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="eb640a67-0db2-42ee-bee1-86d6294ff3de" Title="BaseApi Methods" Url="html/Methods_T_SpotifyWebApi_Api_BaseApi.htm">
+            <HelpTOCNode Title="AddMarketCode Method " Url="html/M_SpotifyWebApi_Api_BaseApi_AddMarketCode.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="fa4e5967-af1d-4393-96ca-51fc6651ec11" Title="SpotifyWebApi.Api.Album" Url="html/N_SpotifyWebApi_Api_Album.htm">
+        <HelpTOCNode Id="0a7460a6-bd2f-44dd-a4ee-88ad3fbd6a81" Title="AlbumApi Class" Url="html/T_SpotifyWebApi_Api_Album_AlbumApi.htm">
+          <HelpTOCNode Title="AlbumApi Constructor " Url="html/M_SpotifyWebApi_Api_Album_AlbumApi__ctor.htm" />
+          <HelpTOCNode Title="AlbumApi Properties" Url="html/Properties_T_SpotifyWebApi_Api_Album_AlbumApi.htm" />
+          <HelpTOCNode Id="d9a9bdca-209b-464e-b3df-badbbb8c609b" Title="AlbumApi Methods" Url="html/Methods_T_SpotifyWebApi_Api_Album_AlbumApi.htm">
+            <HelpTOCNode Title="GetAlbum Method " Url="html/M_SpotifyWebApi_Api_Album_AlbumApi_GetAlbum.htm" />
+            <HelpTOCNode Title="GetAlbums Method " Url="html/M_SpotifyWebApi_Api_Album_AlbumApi_GetAlbums.htm" />
+            <HelpTOCNode Title="GetAlbumTracks Method " Url="html/M_SpotifyWebApi_Api_Album_AlbumApi_GetAlbumTracks.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="e596958b-b0be-48e4-8d1c-fac4932b1781" Title="IAlbumApi Interface" Url="html/T_SpotifyWebApi_Api_Album_IAlbumApi.htm">
+          <HelpTOCNode Id="927f55ff-d55b-4e45-aa52-f37d8cd330b6" Title="IAlbumApi Methods" Url="html/Methods_T_SpotifyWebApi_Api_Album_IAlbumApi.htm">
+            <HelpTOCNode Title="GetAlbum Method " Url="html/M_SpotifyWebApi_Api_Album_IAlbumApi_GetAlbum.htm" />
+            <HelpTOCNode Title="GetAlbums Method " Url="html/M_SpotifyWebApi_Api_Album_IAlbumApi_GetAlbums.htm" />
+            <HelpTOCNode Title="GetAlbumTracks Method " Url="html/M_SpotifyWebApi_Api_Album_IAlbumApi_GetAlbumTracks.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="d7ebbee4-2321-4692-b62e-56aa7477f843" Title="SpotifyWebApi.Api.Artist" Url="html/N_SpotifyWebApi_Api_Artist.htm">
+        <HelpTOCNode Id="98c4e38e-37a7-4410-ac7a-18cf25044caf" Title="ArtistApi Class" Url="html/T_SpotifyWebApi_Api_Artist_ArtistApi.htm">
+          <HelpTOCNode Title="ArtistApi Constructor " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi__ctor.htm" />
+          <HelpTOCNode Title="ArtistApi Properties" Url="html/Properties_T_SpotifyWebApi_Api_Artist_ArtistApi.htm" />
+          <HelpTOCNode Id="9941f73a-eabf-4b0b-9d62-738940fe695e" Title="ArtistApi Methods" Url="html/Methods_T_SpotifyWebApi_Api_Artist_ArtistApi.htm">
+            <HelpTOCNode Title="GetArtist Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtist.htm" />
+            <HelpTOCNode Title="GetArtistAlbums Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtistAlbums.htm" />
+            <HelpTOCNode Title="GetArtists Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtists.htm" />
+            <HelpTOCNode Title="GetArtistsRelatedArtists Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtistsRelatedArtists.htm" />
+            <HelpTOCNode Title="GetArtistsTopTracks Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtistsTopTracks.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="d090109c-593f-45dc-8cd7-8e407866ccd3" Title="IArtistApi Interface" Url="html/T_SpotifyWebApi_Api_Artist_IArtistApi.htm">
+          <HelpTOCNode Id="5b974419-a46e-46ae-a5db-77f4cda8dd64" Title="IArtistApi Methods" Url="html/Methods_T_SpotifyWebApi_Api_Artist_IArtistApi.htm">
+            <HelpTOCNode Title="GetArtist Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtist.htm" />
+            <HelpTOCNode Title="GetArtistAlbums Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtistAlbums.htm" />
+            <HelpTOCNode Title="GetArtists Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtists.htm" />
+            <HelpTOCNode Title="GetArtistsRelatedArtists Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtistsRelatedArtists.htm" />
+            <HelpTOCNode Title="GetArtistsTopTracks Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtistsTopTracks.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="70b5d57d-47b5-4513-b180-2aeb4a312a65" Title="SpotifyWebApi.Api.Browse" Url="html/N_SpotifyWebApi_Api_Browse.htm">
+        <HelpTOCNode Title="IBrowseApi Interface" Url="html/T_SpotifyWebApi_Api_Browse_IBrowseApi.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6400b0c3-86b1-4a91-9cb3-71d058a7f0f0" Title="SpotifyWebApi.Api.Follow" Url="html/N_SpotifyWebApi_Api_Follow.htm">
+        <HelpTOCNode Title="IFollowApi Interface" Url="html/T_SpotifyWebApi_Api_Follow_IFollowApi.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="333aa3e0-2ec8-487f-8790-70178dd8c07a" Title="SpotifyWebApi.Api.Personalization" Url="html/N_SpotifyWebApi_Api_Personalization.htm">
+        <HelpTOCNode Title="IPersonalizationApi Interface" Url="html/T_SpotifyWebApi_Api_Personalization_IPersonalizationApi.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="079c1ab6-3a79-4f19-8744-43d53077594f" Title="SpotifyWebApi.Api.Player" Url="html/N_SpotifyWebApi_Api_Player.htm">
+        <HelpTOCNode Title="IPlayerApi Interface" Url="html/T_SpotifyWebApi_Api_Player_IPlayerApi.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="678ab0b9-76b2-4989-b820-040527b29c2e" Title="SpotifyWebApi.Api.Playlist" Url="html/N_SpotifyWebApi_Api_Playlist.htm">
+        <HelpTOCNode Title="IPlaylistApi Interface" Url="html/T_SpotifyWebApi_Api_Playlist_IPlaylistApi.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b08a003e-1f8d-4412-8156-ef6fecd02837" Title="SpotifyWebApi.Api.Search" Url="html/N_SpotifyWebApi_Api_Search.htm">
+        <HelpTOCNode Title="ISearchApi Interface" Url="html/T_SpotifyWebApi_Api_Search_ISearchApi.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="62043fe0-bd63-4de7-8c63-6bdbb03e3b9b" Title="SpotifyWebApi.Api.Track" Url="html/N_SpotifyWebApi_Api_Track.htm">
+        <HelpTOCNode Title="ITrackApi Interface" Url="html/T_SpotifyWebApi_Api_Track_ITrackApi.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="10bc533c-15b1-4aae-8727-f724cd4cdbc4" Title="SpotifyWebApi.Api.UserLibrary" Url="html/N_SpotifyWebApi_Api_UserLibrary.htm">
+        <HelpTOCNode Title="IUserLibraryApi Interface" Url="html/T_SpotifyWebApi_Api_UserLibrary_IUserLibraryApi.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e3f872a7-2b81-4a2b-8cf6-4948c4389750" Title="SpotifyWebApi.Api.UserProfile" Url="html/N_SpotifyWebApi_Api_UserProfile.htm">
+        <HelpTOCNode Id="5d9ce466-1a9c-4da7-85e2-2c6ed7f6ce4f" Title="IUserProfileApi Interface" Url="html/T_SpotifyWebApi_Api_UserProfile_IUserProfileApi.htm">
+          <HelpTOCNode Id="dcfac46d-83aa-401c-9978-8e61ad65859a" Title="IUserProfileApi Methods" Url="html/Methods_T_SpotifyWebApi_Api_UserProfile_IUserProfileApi.htm">
+            <HelpTOCNode Title="GetMe Method " Url="html/M_SpotifyWebApi_Api_UserProfile_IUserProfileApi_GetMe.htm" />
+            <HelpTOCNode Title="GetUser Method " Url="html/M_SpotifyWebApi_Api_UserProfile_IUserProfileApi_GetUser.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="e9b5dc5e-002b-472f-b722-39aff9d92b65" Title="UserProfileApi Class" Url="html/T_SpotifyWebApi_Api_UserProfile_UserProfileApi.htm">
+          <HelpTOCNode Title="UserProfileApi Constructor " Url="html/M_SpotifyWebApi_Api_UserProfile_UserProfileApi__ctor.htm" />
+          <HelpTOCNode Title="UserProfileApi Properties" Url="html/Properties_T_SpotifyWebApi_Api_UserProfile_UserProfileApi.htm" />
+          <HelpTOCNode Id="dab07ec3-0b0e-4a07-b0e0-138e1e4eab08" Title="UserProfileApi Methods" Url="html/Methods_T_SpotifyWebApi_Api_UserProfile_UserProfileApi.htm">
+            <HelpTOCNode Title="GetMe Method " Url="html/M_SpotifyWebApi_Api_UserProfile_UserProfileApi_GetMe.htm" />
+            <HelpTOCNode Title="GetUser Method " Url="html/M_SpotifyWebApi_Api_UserProfile_UserProfileApi_GetUser.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7bcb5a1b-4a93-435c-9a50-9a1d58f378cb" Title="SpotifyWebApi.Auth Namespaces" Url="html/G_SpotifyWebApi_Auth.htm">
+      <HelpTOCNode Id="3754c82d-6b4a-4a83-aa7c-63f30df14310" Title="SpotifyWebApi.Auth" Url="html/N_SpotifyWebApi_Auth.htm">
+        <HelpTOCNode Id="ad84e19e-d834-4361-8870-da3ed353b3a0" Title="AuthParameters Class" Url="html/T_SpotifyWebApi_Auth_AuthParameters.htm">
+          <HelpTOCNode Title="AuthParameters Constructor " Url="html/M_SpotifyWebApi_Auth_AuthParameters__ctor.htm" />
+          <HelpTOCNode Id="6bfbfa9c-35ad-4e88-8536-fc129417f027" Title="AuthParameters Properties" Url="html/Properties_T_SpotifyWebApi_Auth_AuthParameters.htm">
+            <HelpTOCNode Title="ClientId Property " Url="html/P_SpotifyWebApi_Auth_AuthParameters_ClientId.htm" />
+            <HelpTOCNode Title="ClientSecret Property " Url="html/P_SpotifyWebApi_Auth_AuthParameters_ClientSecret.htm" />
+            <HelpTOCNode Title="RedirectUri Property " Url="html/P_SpotifyWebApi_Auth_AuthParameters_RedirectUri.htm" />
+            <HelpTOCNode Title="Scopes Property " Url="html/P_SpotifyWebApi_Auth_AuthParameters_Scopes.htm" />
+            <HelpTOCNode Title="ShowDialog Property " Url="html/P_SpotifyWebApi_Auth_AuthParameters_ShowDialog.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="afa52c82-2044-41ed-bf99-13e59072e4a1" Title="SpotifyWebApi.Auth.AuthorizationCode" Url="html/N_SpotifyWebApi_Auth_AuthorizationCode.htm">
+        <HelpTOCNode Id="b3cf7bf7-7faa-4093-b4d9-5953eb2dde72" Title="AccessTokenRequest Class" Url="html/T_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest.htm">
+          <HelpTOCNode Title="AccessTokenRequest Constructor " Url="html/M_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest__ctor.htm" />
+          <HelpTOCNode Id="2edf7073-b033-43f4-82d4-da6f67360f9e" Title="AccessTokenRequest Properties" Url="html/Properties_T_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest.htm">
+            <HelpTOCNode Title="Code Property " Url="html/P_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest_Code.htm" />
+            <HelpTOCNode Title="GrantType Property " Url="html/P_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest_GrantType.htm" />
+            <HelpTOCNode Title="RedirectUri Property " Url="html/P_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest_RedirectUri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="d19f8ed8-24be-477b-883f-0ff94339e8a4" Title="AuthorizationCode Class" Url="html/T_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode.htm">
+          <HelpTOCNode Id="30be16a9-9f1d-4260-b7e4-f041fbd3251f" Title="AuthorizationCode Methods" Url="html/Methods_T_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode.htm">
+            <HelpTOCNode Title="GetUrl Method " Url="html/M_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode_GetUrl.htm" />
+            <HelpTOCNode Title="ProcessCallback Method " Url="html/M_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode_ProcessCallback.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="aaa04580-ec0a-44a3-9d5a-3e46ea6df0ce" Title="SpotifyWebApi.Business" Url="html/N_SpotifyWebApi_Business.htm">
+      <HelpTOCNode Id="3db55278-f31f-40f0-b43e-9a528435021a" Title="ApiHelper Class" Url="html/T_SpotifyWebApi_Business_ApiHelper.htm">
+        <HelpTOCNode Title="ApiHelper Constructor " Url="html/M_SpotifyWebApi_Business_ApiHelper__ctor.htm" />
+        <HelpTOCNode Id="8f55689f-6cdb-43f4-bdad-86f7273e97e7" Title="ApiHelper Methods" Url="html/Methods_T_SpotifyWebApi_Business_ApiHelper.htm">
+          <HelpTOCNode Title="Base64Encode Method " Url="html/M_SpotifyWebApi_Business_ApiHelper_Base64Encode.htm" />
+          <HelpTOCNode Title="CreateRequest Method " Url="html/M_SpotifyWebApi_Business_ApiHelper_CreateRequest.htm" />
+          <HelpTOCNode Title="GetJsonFromUrl Method " Url="html/M_SpotifyWebApi_Business_ApiHelper_GetJsonFromUrl.htm" />
+          <HelpTOCNode Title="GetObjectFromUrl(T) Method " Url="html/M_SpotifyWebApi_Business_ApiHelper_GetObjectFromUrl__1.htm" />
+          <HelpTOCNode Title="GetUri Method " Url="html/M_SpotifyWebApi_Business_ApiHelper_GetUri.htm" />
+          <HelpTOCNode Id="992c3a38-143b-4953-8027-159fd22bc082" Title="JsonToObject Method " Url="html/Overload_SpotifyWebApi_Business_ApiHelper_JsonToObject.htm">
+            <HelpTOCNode Title="JsonToObject(T) Method (String)" Url="html/M_SpotifyWebApi_Business_ApiHelper_JsonToObject__1_1.htm" />
+            <HelpTOCNode Title="JsonToObject(T) Method (WebResponse(String))" Url="html/M_SpotifyWebApi_Business_ApiHelper_JsonToObject__1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="9a5501f7-4bf3-4cdc-ae66-55d720fd792f" Title="ApiHelper Fields" Url="html/Fields_T_SpotifyWebApi_Business_ApiHelper.htm">
+          <HelpTOCNode Title="BaseUri Field" Url="html/F_SpotifyWebApi_Business_ApiHelper_BaseUri.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="14fad4fe-2ca3-4aba-bcb4-656c2882f82f" Title="Validation Class" Url="html/T_SpotifyWebApi_Business_Validation.htm">
+        <HelpTOCNode Id="a09ab2b3-1128-422c-8dcf-2363b432278a" Title="Validation Methods" Url="html/Methods_T_SpotifyWebApi_Business_Validation.htm">
+          <HelpTOCNode Title="ValidateInteger Method " Url="html/M_SpotifyWebApi_Business_Validation_ValidateInteger.htm" />
+          <HelpTOCNode Title="ValidateList(T) Method " Url="html/M_SpotifyWebApi_Business_Validation_ValidateList__1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2d9b57c8-4b4a-48b1-ae00-1607bbf26724" Title="SpotifyWebApi.Model Namespaces" Url="html/G_SpotifyWebApi_Model.htm">
+      <HelpTOCNode Id="7fd70518-cfc6-4538-a269-e450abc7ee6b" Title="SpotifyWebApi.Model" Url="html/N_SpotifyWebApi_Model.htm">
+        <HelpTOCNode Id="683a574a-9808-4213-b21c-79b56401e764" Title="Copyright Class" Url="html/T_SpotifyWebApi_Model_Copyright.htm">
+          <HelpTOCNode Title="Copyright Constructor " Url="html/M_SpotifyWebApi_Model_Copyright__ctor.htm" />
+          <HelpTOCNode Id="32c96744-1f72-4225-b84a-6a31601fa18b" Title="Copyright Properties" Url="html/Properties_T_SpotifyWebApi_Model_Copyright.htm">
+            <HelpTOCNode Title="Text Property " Url="html/P_SpotifyWebApi_Model_Copyright_Text.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_Copyright_Type.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="a08ea281-efe5-4f18-8c9f-379bdb22db99" Title="Cursor Class" Url="html/T_SpotifyWebApi_Model_Cursor.htm">
+          <HelpTOCNode Title="Cursor Constructor " Url="html/M_SpotifyWebApi_Model_Cursor__ctor.htm" />
+          <HelpTOCNode Id="c297fa79-5085-4654-80a8-8ae714498720" Title="Cursor Properties" Url="html/Properties_T_SpotifyWebApi_Model_Cursor.htm">
+            <HelpTOCNode Title="After Property " Url="html/P_SpotifyWebApi_Model_Cursor_After.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="9ee77b65-d72b-4c12-8d85-29f6553ad39e" Title="CursorPaging(T) Class" Url="html/T_SpotifyWebApi_Model_CursorPaging_1.htm">
+          <HelpTOCNode Title="CursorPaging(T) Constructor " Url="html/M_SpotifyWebApi_Model_CursorPaging_1__ctor.htm" />
+          <HelpTOCNode Id="819eef60-8093-4b23-8af1-6887e66b233f" Title="CursorPaging(T) Properties" Url="html/Properties_T_SpotifyWebApi_Model_CursorPaging_1.htm">
+            <HelpTOCNode Title="Cursors Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Cursors.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Href.htm" />
+            <HelpTOCNode Title="Items Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Items.htm" />
+            <HelpTOCNode Title="Limit Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Limit.htm" />
+            <HelpTOCNode Title="Next Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Next.htm" />
+            <HelpTOCNode Title="Total Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Total.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="40f318d3-5834-4ced-986e-fb198d31accc" Title="Error Class" Url="html/T_SpotifyWebApi_Model_Error.htm">
+          <HelpTOCNode Title="Error Constructor " Url="html/M_SpotifyWebApi_Model_Error__ctor.htm" />
+          <HelpTOCNode Id="031ee797-f8ac-4601-88c8-d10b6d28d772" Title="Error Properties" Url="html/Properties_T_SpotifyWebApi_Model_Error.htm">
+            <HelpTOCNode Title="Message Property " Url="html/P_SpotifyWebApi_Model_Error_Message.htm" />
+            <HelpTOCNode Title="Status Property " Url="html/P_SpotifyWebApi_Model_Error_Status.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="d31c300f-e0ef-452b-b11a-013dae555657" Title="Followers Class" Url="html/T_SpotifyWebApi_Model_Followers.htm">
+          <HelpTOCNode Title="Followers Constructor " Url="html/M_SpotifyWebApi_Model_Followers__ctor.htm" />
+          <HelpTOCNode Id="37c6faf0-6a85-4aa3-a296-68bb03ed21bc" Title="Followers Properties" Url="html/Properties_T_SpotifyWebApi_Model_Followers.htm">
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_Followers_Href.htm" />
+            <HelpTOCNode Title="Total Property " Url="html/P_SpotifyWebApi_Model_Followers_Total.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="276ff1ff-ae5d-497b-a536-24ecf4eff52c" Title="FullAlbum Class" Url="html/T_SpotifyWebApi_Model_FullAlbum.htm">
+          <HelpTOCNode Title="FullAlbum Constructor " Url="html/M_SpotifyWebApi_Model_FullAlbum__ctor.htm" />
+          <HelpTOCNode Id="9bd6b21f-8fd2-48d3-b432-3859ab6181a5" Title="FullAlbum Properties" Url="html/Properties_T_SpotifyWebApi_Model_FullAlbum.htm">
+            <HelpTOCNode Title="AlbumType Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_AlbumType.htm" />
+            <HelpTOCNode Title="Artists Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Artists.htm" />
+            <HelpTOCNode Title="AvailableMarkets Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_AvailableMarkets.htm" />
+            <HelpTOCNode Title="Copyrights Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Copyrights.htm" />
+            <HelpTOCNode Title="ExternalIds Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_ExternalIds.htm" />
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_ExternalUrls.htm" />
+            <HelpTOCNode Title="Genres Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Genres.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Id.htm" />
+            <HelpTOCNode Title="Images Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Images.htm" />
+            <HelpTOCNode Title="Label Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Label.htm" />
+            <HelpTOCNode Title="Name Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Name.htm" />
+            <HelpTOCNode Title="Popularity Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Popularity.htm" />
+            <HelpTOCNode Title="ReleaseDate Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_ReleaseDate.htm" />
+            <HelpTOCNode Title="ReleaseDatePrecision Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_ReleaseDatePrecision.htm" />
+            <HelpTOCNode Title="Tracks Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Tracks.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="61366676-2758-4535-a310-4e21684c3bf2" Title="FullArtist Class" Url="html/T_SpotifyWebApi_Model_FullArtist.htm">
+          <HelpTOCNode Title="FullArtist Constructor " Url="html/M_SpotifyWebApi_Model_FullArtist__ctor.htm" />
+          <HelpTOCNode Id="91267b9a-856d-4031-821f-1fb3d4e70678" Title="FullArtist Properties" Url="html/Properties_T_SpotifyWebApi_Model_FullArtist.htm">
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_FullArtist_ExternalUrls.htm" />
+            <HelpTOCNode Title="Followers Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Followers.htm" />
+            <HelpTOCNode Title="Genres Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Genres.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Id.htm" />
+            <HelpTOCNode Title="Images Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Images.htm" />
+            <HelpTOCNode Title="Name Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Name.htm" />
+            <HelpTOCNode Title="Popularity Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Popularity.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="b174c195-47f7-4c66-947e-274ac93c0ca6" Title="FullPlaylist Class" Url="html/T_SpotifyWebApi_Model_FullPlaylist.htm">
+          <HelpTOCNode Title="FullPlaylist Constructor " Url="html/M_SpotifyWebApi_Model_FullPlaylist__ctor.htm" />
+          <HelpTOCNode Id="73f17f8e-621f-4b5f-a25c-d08987ddf502" Title="FullPlaylist Properties" Url="html/Properties_T_SpotifyWebApi_Model_FullPlaylist.htm">
+            <HelpTOCNode Title="Collaborative Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Collaborative.htm" />
+            <HelpTOCNode Title="Description Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Description.htm" />
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_ExternalUrls.htm" />
+            <HelpTOCNode Title="Followers Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Followers.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Id.htm" />
+            <HelpTOCNode Title="Images Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Images.htm" />
+            <HelpTOCNode Title="Name Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Name.htm" />
+            <HelpTOCNode Title="Owner Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Owner.htm" />
+            <HelpTOCNode Title="Public Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Public.htm" />
+            <HelpTOCNode Title="SnapshotId Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_SnapshotId.htm" />
+            <HelpTOCNode Title="TrackList Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_TrackList.htm" />
+            <HelpTOCNode Title="Tracks Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Tracks.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="5fe4df0b-26e1-4c5c-a6c7-577cbc64e85d" Title="FullTrack Class" Url="html/T_SpotifyWebApi_Model_FullTrack.htm">
+          <HelpTOCNode Title="FullTrack Constructor " Url="html/M_SpotifyWebApi_Model_FullTrack__ctor.htm" />
+          <HelpTOCNode Id="ddbc2b8d-c698-4d59-a4ce-4f4f943f482a" Title="FullTrack Properties" Url="html/Properties_T_SpotifyWebApi_Model_FullTrack.htm">
+            <HelpTOCNode Title="Album Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Album.htm" />
+            <HelpTOCNode Title="Artists Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Artists.htm" />
+            <HelpTOCNode Title="AvailableMarkets Property " Url="html/P_SpotifyWebApi_Model_FullTrack_AvailableMarkets.htm" />
+            <HelpTOCNode Title="DiscNumber Property " Url="html/P_SpotifyWebApi_Model_FullTrack_DiscNumber.htm" />
+            <HelpTOCNode Title="DurationMs Property " Url="html/P_SpotifyWebApi_Model_FullTrack_DurationMs.htm" />
+            <HelpTOCNode Title="Explicit Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Explicit.htm" />
+            <HelpTOCNode Title="ExternalIds Property " Url="html/P_SpotifyWebApi_Model_FullTrack_ExternalIds.htm" />
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_FullTrack_ExternalUrls.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Id.htm" />
+            <HelpTOCNode Title="IsPlayable Property " Url="html/P_SpotifyWebApi_Model_FullTrack_IsPlayable.htm" />
+            <HelpTOCNode Title="LinkedFrom Property " Url="html/P_SpotifyWebApi_Model_FullTrack_LinkedFrom.htm" />
+            <HelpTOCNode Title="Name Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Name.htm" />
+            <HelpTOCNode Title="Popularity Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Popularity.htm" />
+            <HelpTOCNode Title="PreviewUrl Property " Url="html/P_SpotifyWebApi_Model_FullTrack_PreviewUrl.htm" />
+            <HelpTOCNode Title="TrackNumber Property " Url="html/P_SpotifyWebApi_Model_FullTrack_TrackNumber.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Uri.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="4029b07b-2dde-48bc-927a-b354d80d982d" Title="FullTrack Methods" Url="html/Methods_T_SpotifyWebApi_Model_FullTrack.htm">
+            <HelpTOCNode Title="Equals Method " Url="html/M_SpotifyWebApi_Model_FullTrack_Equals.htm" />
+            <HelpTOCNode Title="GetHashCode Method " Url="html/M_SpotifyWebApi_Model_FullTrack_GetHashCode.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="379e7161-4b92-454b-add8-4a84fd743bcd" Title="Image Class" Url="html/T_SpotifyWebApi_Model_Image.htm">
+          <HelpTOCNode Title="Image Constructor " Url="html/M_SpotifyWebApi_Model_Image__ctor.htm" />
+          <HelpTOCNode Id="9299afbd-ef79-407f-81e9-622a3f89de33" Title="Image Properties" Url="html/Properties_T_SpotifyWebApi_Model_Image.htm">
+            <HelpTOCNode Title="Height Property " Url="html/P_SpotifyWebApi_Model_Image_Height.htm" />
+            <HelpTOCNode Title="Url Property " Url="html/P_SpotifyWebApi_Model_Image_Url.htm" />
+            <HelpTOCNode Title="Width Property " Url="html/P_SpotifyWebApi_Model_Image_Width.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="65c8a269-b9a2-4785-94f0-80fe0277c00d" Title="LinkedFrom Class" Url="html/T_SpotifyWebApi_Model_LinkedFrom.htm">
+          <HelpTOCNode Title="LinkedFrom Constructor " Url="html/M_SpotifyWebApi_Model_LinkedFrom__ctor.htm" />
+          <HelpTOCNode Id="b5fddd8f-415f-4c0e-959c-45bbc6b526f6" Title="LinkedFrom Properties" Url="html/Properties_T_SpotifyWebApi_Model_LinkedFrom.htm">
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_ExternalUrls.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_Id.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="d28271cf-e8d6-4a36-b2fd-6225a63ca486" Title="Paging(T) Class" Url="html/T_SpotifyWebApi_Model_Paging_1.htm">
+          <HelpTOCNode Title="Paging(T) Constructor " Url="html/M_SpotifyWebApi_Model_Paging_1__ctor.htm" />
+          <HelpTOCNode Id="4c0cab21-6770-4018-b1ca-fdcc242735e0" Title="Paging(T) Properties" Url="html/Properties_T_SpotifyWebApi_Model_Paging_1.htm">
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Href.htm" />
+            <HelpTOCNode Title="Items Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Items.htm" />
+            <HelpTOCNode Title="Limit Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Limit.htm" />
+            <HelpTOCNode Title="Next Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Next.htm" />
+            <HelpTOCNode Title="Offset Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Offset.htm" />
+            <HelpTOCNode Title="Previous Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Previous.htm" />
+            <HelpTOCNode Title="Total Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Total.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="72a7d5d5-4034-4437-89f2-7b6f67751f64" Title="PlaylistTrack Class" Url="html/T_SpotifyWebApi_Model_PlaylistTrack.htm">
+          <HelpTOCNode Title="PlaylistTrack Constructor " Url="html/M_SpotifyWebApi_Model_PlaylistTrack__ctor.htm" />
+          <HelpTOCNode Id="70129a1e-d508-4908-97a9-1343f4ca477e" Title="PlaylistTrack Properties" Url="html/Properties_T_SpotifyWebApi_Model_PlaylistTrack.htm">
+            <HelpTOCNode Title="AddedAt Property " Url="html/P_SpotifyWebApi_Model_PlaylistTrack_AddedAt.htm" />
+            <HelpTOCNode Title="IsLocal Property " Url="html/P_SpotifyWebApi_Model_PlaylistTrack_IsLocal.htm" />
+            <HelpTOCNode Title="Track Property " Url="html/P_SpotifyWebApi_Model_PlaylistTrack_Track.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="4757defa-c6c5-4122-be9c-39d862e9f0ea" Title="PrivateUser Class" Url="html/T_SpotifyWebApi_Model_PrivateUser.htm">
+          <HelpTOCNode Title="PrivateUser Constructor " Url="html/M_SpotifyWebApi_Model_PrivateUser__ctor.htm" />
+          <HelpTOCNode Id="5bd02601-cc5e-468c-895a-3a1b9be85190" Title="PrivateUser Properties" Url="html/Properties_T_SpotifyWebApi_Model_PrivateUser.htm">
+            <HelpTOCNode Title="Birthdate Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Birthdate.htm" />
+            <HelpTOCNode Title="Country Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Country.htm" />
+            <HelpTOCNode Title="DisplayName Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_DisplayName.htm" />
+            <HelpTOCNode Title="Email Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Email.htm" />
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_ExternalUrls.htm" />
+            <HelpTOCNode Title="Followers Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Followers.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Id.htm" />
+            <HelpTOCNode Title="Images Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Images.htm" />
+            <HelpTOCNode Title="Product Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Product.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="5b453116-2b4a-4af8-9d4d-b4770e24a9e7" Title="PublicUser Class" Url="html/T_SpotifyWebApi_Model_PublicUser.htm">
+          <HelpTOCNode Title="PublicUser Constructor " Url="html/M_SpotifyWebApi_Model_PublicUser__ctor.htm" />
+          <HelpTOCNode Id="257ca816-adb4-45b8-933c-83188cbd9f6a" Title="PublicUser Properties" Url="html/Properties_T_SpotifyWebApi_Model_PublicUser.htm">
+            <HelpTOCNode Title="DisplayName Property " Url="html/P_SpotifyWebApi_Model_PublicUser_DisplayName.htm" />
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_PublicUser_ExternalUrls.htm" />
+            <HelpTOCNode Title="Followers Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Followers.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Id.htm" />
+            <HelpTOCNode Title="Images Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Images.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="7ff3bf83-51eb-4321-9fe7-41fa7ff986c5" Title="SimpleAlbum Class" Url="html/T_SpotifyWebApi_Model_SimpleAlbum.htm">
+          <HelpTOCNode Title="SimpleAlbum Constructor " Url="html/M_SpotifyWebApi_Model_SimpleAlbum__ctor.htm" />
+          <HelpTOCNode Id="fa2f92f7-c67e-4f9c-950d-ce2c25274c7e" Title="SimpleAlbum Properties" Url="html/Properties_T_SpotifyWebApi_Model_SimpleAlbum.htm">
+            <HelpTOCNode Title="AlbumType Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_AlbumType.htm" />
+            <HelpTOCNode Title="Artists Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Artists.htm" />
+            <HelpTOCNode Title="AvailableMarkets Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_AvailableMarkets.htm" />
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_ExternalUrls.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Id.htm" />
+            <HelpTOCNode Title="Images Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Images.htm" />
+            <HelpTOCNode Title="Name Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Name.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="8764c9b3-643b-4643-a079-a8fc4bb599e8" Title="SimpleArtist Class" Url="html/T_SpotifyWebApi_Model_SimpleArtist.htm">
+          <HelpTOCNode Title="SimpleArtist Constructor " Url="html/M_SpotifyWebApi_Model_SimpleArtist__ctor.htm" />
+          <HelpTOCNode Id="8a0486c3-0694-4810-8980-6b037b662b40" Title="SimpleArtist Properties" Url="html/Properties_T_SpotifyWebApi_Model_SimpleArtist.htm">
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_ExternalUrls.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Id.htm" />
+            <HelpTOCNode Title="Name Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Name.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="3a57fa5e-092f-4002-aa4c-270e43ae1c1b" Title="SimplePlaylist Class" Url="html/T_SpotifyWebApi_Model_SimplePlaylist.htm">
+          <HelpTOCNode Title="SimplePlaylist Constructor " Url="html/M_SpotifyWebApi_Model_SimplePlaylist__ctor.htm" />
+          <HelpTOCNode Id="59b05586-81e6-475a-8c2a-f0808134ac38" Title="SimplePlaylist Properties" Url="html/Properties_T_SpotifyWebApi_Model_SimplePlaylist.htm">
+            <HelpTOCNode Title="Collaborative Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Collaborative.htm" />
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_ExternalUrls.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Id.htm" />
+            <HelpTOCNode Title="Images Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Images.htm" />
+            <HelpTOCNode Title="Name Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Name.htm" />
+            <HelpTOCNode Title="Owner Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Owner.htm" />
+            <HelpTOCNode Title="Public Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Public.htm" />
+            <HelpTOCNode Title="SnapshotId Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_SnapshotId.htm" />
+            <HelpTOCNode Title="Tracks Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Tracks.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="f9aaa04f-3a4d-45ab-9bf6-ae39b728eb39" Title="SimpleTrack Class" Url="html/T_SpotifyWebApi_Model_SimpleTrack.htm">
+          <HelpTOCNode Title="SimpleTrack Constructor " Url="html/M_SpotifyWebApi_Model_SimpleTrack__ctor.htm" />
+          <HelpTOCNode Id="4d20951d-0308-4894-bfe2-9a50fb8b99a0" Title="SimpleTrack Properties" Url="html/Properties_T_SpotifyWebApi_Model_SimpleTrack.htm">
+            <HelpTOCNode Title="Artists Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Artists.htm" />
+            <HelpTOCNode Title="AvailableMarkets Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_AvailableMarkets.htm" />
+            <HelpTOCNode Title="DiscNumber Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_DiscNumber.htm" />
+            <HelpTOCNode Title="DurationMs Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_DurationMs.htm" />
+            <HelpTOCNode Title="Explicit Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Explicit.htm" />
+            <HelpTOCNode Title="ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_ExternalUrls.htm" />
+            <HelpTOCNode Title="Href Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Href.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Id.htm" />
+            <HelpTOCNode Title="Name Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Name.htm" />
+            <HelpTOCNode Title="PreviewUrl Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_PreviewUrl.htm" />
+            <HelpTOCNode Title="TrackNumber Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_TrackNumber.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Type.htm" />
+            <HelpTOCNode Title="Uri Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Uri.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="24b6f83f-1ca1-4839-8f70-9270db8c3261" Title="WebResponse(T) Class" Url="html/T_SpotifyWebApi_Model_WebResponse_1.htm">
+          <HelpTOCNode Title="WebResponse(T) Constructor " Url="html/M_SpotifyWebApi_Model_WebResponse_1__ctor.htm" />
+          <HelpTOCNode Id="2018d9b9-f076-41fe-acee-65f3e05650c2" Title="WebResponse(T) Properties" Url="html/Properties_T_SpotifyWebApi_Model_WebResponse_1.htm">
+            <HelpTOCNode Title="Response Property " Url="html/P_SpotifyWebApi_Model_WebResponse_1_Response.htm" />
+            <HelpTOCNode Title="StatusCode Property " Url="html/P_SpotifyWebApi_Model_WebResponse_1_StatusCode.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8f4639a2-6969-4590-8810-e87d1b4a54bb" Title="SpotifyWebApi.Model.Auth" Url="html/N_SpotifyWebApi_Model_Auth.htm">
+        <HelpTOCNode Id="aaf220c8-77d7-4e8a-a0df-642d47aa9e58" Title="Token Class" Url="html/T_SpotifyWebApi_Model_Auth_Token.htm">
+          <HelpTOCNode Title="Token Constructor " Url="html/M_SpotifyWebApi_Model_Auth_Token__ctor.htm" />
+          <HelpTOCNode Id="fe2c8fa5-9248-4c11-95f9-982e09fecf8d" Title="Token Properties" Url="html/Properties_T_SpotifyWebApi_Model_Auth_Token.htm">
+            <HelpTOCNode Title="AccessToken Property " Url="html/P_SpotifyWebApi_Model_Auth_Token_AccessToken.htm" />
+            <HelpTOCNode Title="ExpiresIn Property " Url="html/P_SpotifyWebApi_Model_Auth_Token_ExpiresIn.htm" />
+            <HelpTOCNode Title="IsExpired Property " Url="html/P_SpotifyWebApi_Model_Auth_Token_IsExpired.htm" />
+            <HelpTOCNode Title="RefreshToken Property " Url="html/P_SpotifyWebApi_Model_Auth_Token_RefreshToken.htm" />
+            <HelpTOCNode Title="Scope Property " Url="html/P_SpotifyWebApi_Model_Auth_Token_Scope.htm" />
+            <HelpTOCNode Title="TokenGenerated Property " Url="html/P_SpotifyWebApi_Model_Auth_Token_TokenGenerated.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_Auth_Token_Type.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="9072d851-c6b9-43b8-9e6a-00ba3a1bd85a" Title="SpotifyWebApi.Model.Enum" Url="html/N_SpotifyWebApi_Model_Enum.htm">
+        <HelpTOCNode Title="AlbumType Enumeration" Url="html/T_SpotifyWebApi_Model_Enum_AlbumType.htm" />
+        <HelpTOCNode Id="d7d1d5ef-e953-4378-a9e5-d069c0cd4daa" Title="EnumExtensions Class" Url="html/T_SpotifyWebApi_Model_Enum_EnumExtensions.htm">
+          <HelpTOCNode Id="e5162148-8be7-4637-86bc-4b9b49eaa5d1" Title="EnumExtensions Methods" Url="html/Methods_T_SpotifyWebApi_Model_Enum_EnumExtensions.htm">
+            <HelpTOCNode Title="AsString Method " Url="html/M_SpotifyWebApi_Model_Enum_EnumExtensions_AsString.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="Scope Enumeration" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+        <HelpTOCNode Id="6716f80b-c120-47f2-875d-ea4092253193" Title="ScopeExtension Class" Url="html/T_SpotifyWebApi_Model_Enum_ScopeExtension.htm">
+          <HelpTOCNode Id="d961b5df-0362-4f65-9f13-d07c80989bd2" Title="ScopeExtension Methods" Url="html/Methods_T_SpotifyWebApi_Model_Enum_ScopeExtension.htm">
+            <HelpTOCNode Title="AsString Method " Url="html/M_SpotifyWebApi_Model_Enum_ScopeExtension_AsString.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="7f1f5c57-10c8-4e1e-88d6-14cc4ff7e93a" Title="SpotifyWebApi.Model.List" Url="html/N_SpotifyWebApi_Model_List.htm">
+        <HelpTOCNode Id="ba7e43f8-4b28-4ca1-9a11-250d29a43d38" Title="MultipleAlbums Class" Url="html/T_SpotifyWebApi_Model_List_MultipleAlbums.htm">
+          <HelpTOCNode Title="MultipleAlbums Constructor " Url="html/M_SpotifyWebApi_Model_List_MultipleAlbums__ctor.htm" />
+          <HelpTOCNode Id="f3bb8ba8-63c3-415f-865d-b7e03cd58b4f" Title="MultipleAlbums Properties" Url="html/Properties_T_SpotifyWebApi_Model_List_MultipleAlbums.htm">
+            <HelpTOCNode Title="Albums Property " Url="html/P_SpotifyWebApi_Model_List_MultipleAlbums_Albums.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="0092f46e-f4dc-4c9e-b7a1-04cd498ff1b4" Title="MultipleArtists Class" Url="html/T_SpotifyWebApi_Model_List_MultipleArtists.htm">
+          <HelpTOCNode Title="MultipleArtists Constructor " Url="html/M_SpotifyWebApi_Model_List_MultipleArtists__ctor.htm" />
+          <HelpTOCNode Id="ed4baadd-fa8a-4a29-8b28-4a2f9e2b5d8b" Title="MultipleArtists Properties" Url="html/Properties_T_SpotifyWebApi_Model_List_MultipleArtists.htm">
+            <HelpTOCNode Title="Artists Property " Url="html/P_SpotifyWebApi_Model_List_MultipleArtists_Artists.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="638e39e2-aecb-4ceb-8bb6-2f2c82f4e68a" Title="MultiplePlaylists Class" Url="html/T_SpotifyWebApi_Model_List_MultiplePlaylists.htm">
+          <HelpTOCNode Title="MultiplePlaylists Constructor " Url="html/M_SpotifyWebApi_Model_List_MultiplePlaylists__ctor.htm" />
+          <HelpTOCNode Id="be668222-b09b-4d34-8743-a0816b42a433" Title="MultiplePlaylists Properties" Url="html/Properties_T_SpotifyWebApi_Model_List_MultiplePlaylists.htm">
+            <HelpTOCNode Title="Playlists Property " Url="html/P_SpotifyWebApi_Model_List_MultiplePlaylists_Playlists.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="3bec186d-4d85-4d2b-914d-ea0ac21bd370" Title="MultipleTracks Class" Url="html/T_SpotifyWebApi_Model_List_MultipleTracks.htm">
+          <HelpTOCNode Title="MultipleTracks Constructor " Url="html/M_SpotifyWebApi_Model_List_MultipleTracks__ctor.htm" />
+          <HelpTOCNode Id="311b48b9-e41d-423c-9c4e-5aedab797f0f" Title="MultipleTracks Properties" Url="html/Properties_T_SpotifyWebApi_Model_List_MultipleTracks.htm">
+            <HelpTOCNode Title="Tracks Property " Url="html/P_SpotifyWebApi_Model_List_MultipleTracks_Tracks.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="5982b6b8-23f0-4443-89ab-081580e0133b" Title="SpotifyWebApi.Model.Uri" Url="html/N_SpotifyWebApi_Model_Uri.htm">
+        <HelpTOCNode Id="7ca1514c-a88d-4022-b534-fd686a9368f1" Title="SpotifyUri Class" Url="html/T_SpotifyWebApi_Model_Uri_SpotifyUri.htm">
+          <HelpTOCNode Title="SpotifyUri Constructor " Url="html/M_SpotifyWebApi_Model_Uri_SpotifyUri__ctor.htm" />
+          <HelpTOCNode Id="2eeca7f9-a4cf-4fe5-8470-408186945dee" Title="SpotifyUri Properties" Url="html/Properties_T_SpotifyWebApi_Model_Uri_SpotifyUri.htm">
+            <HelpTOCNode Title="Domain Property " Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_Domain.htm" />
+            <HelpTOCNode Title="FullUri Property " Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_FullUri.htm" />
+            <HelpTOCNode Title="Id Property " Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_Id.htm" />
+            <HelpTOCNode Title="Type Property " Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_Type.htm" />
+            <HelpTOCNode Title="UserId Property " Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_UserId.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="UriType Enumeration" Url="html/T_SpotifyWebApi_Model_Uri_UriType.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

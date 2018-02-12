@@ -1,0 +1,1048 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AccessToken property" Url="html/P_SpotifyWebApi_Model_Auth_Token_AccessToken.htm" />
+  <HelpKINode Title="AccessTokenRequest class">
+    <HelpKINode Title="AccessTokenRequest Class" Url="html/T_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest.htm" />
+    <HelpKINode Title="about AccessTokenRequest class" Url="html/T_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AccessTokenRequest.AccessTokenRequest constructor" Url="html/M_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest__ctor.htm" />
+  <HelpKINode Title="AccessTokenRequest.Code property" Url="html/P_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest_Code.htm" />
+  <HelpKINode Title="AccessTokenRequest.GrantType property" Url="html/P_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest_GrantType.htm" />
+  <HelpKINode Title="AccessTokenRequest.RedirectUri property" Url="html/P_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest_RedirectUri.htm" />
+  <HelpKINode Title="AddedAt property" Url="html/P_SpotifyWebApi_Model_PlaylistTrack_AddedAt.htm" />
+  <HelpKINode Title="AddMarketCode method" Url="html/M_SpotifyWebApi_Api_BaseApi_AddMarketCode.htm" />
+  <HelpKINode Title="After property" Url="html/P_SpotifyWebApi_Model_Cursor_After.htm" />
+  <HelpKINode Title="Album enumeration member">
+    <HelpKINode Title="AlbumType Enumeration" Url="html/T_SpotifyWebApi_Model_Enum_AlbumType.htm" />
+    <HelpKINode Title="UriType Enumeration" Url="html/T_SpotifyWebApi_Model_Uri_UriType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Album property">
+    <HelpKINode Title="FullTrack.Album Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Album.htm" />
+    <HelpKINode Title="ISpotifyWebApi.Album Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Album.htm" />
+    <HelpKINode Title="SpotifyWebApi.Album Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Album.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AlbumApi class">
+    <HelpKINode Title="AlbumApi Class" Url="html/T_SpotifyWebApi_Api_Album_AlbumApi.htm" />
+    <HelpKINode Title="about AlbumApi class" Url="html/T_SpotifyWebApi_Api_Album_AlbumApi.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Api_Album_AlbumApi__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Api_Album_AlbumApi.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Api_Album_AlbumApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AlbumApi.AlbumApi constructor" Url="html/M_SpotifyWebApi_Api_Album_AlbumApi__ctor.htm" />
+  <HelpKINode Title="AlbumApi.GetAlbum method" Url="html/M_SpotifyWebApi_Api_Album_AlbumApi_GetAlbum.htm" />
+  <HelpKINode Title="AlbumApi.GetAlbums method" Url="html/M_SpotifyWebApi_Api_Album_AlbumApi_GetAlbums.htm" />
+  <HelpKINode Title="AlbumApi.GetAlbumTracks method" Url="html/M_SpotifyWebApi_Api_Album_AlbumApi_GetAlbumTracks.htm" />
+  <HelpKINode Title="Albums property" Url="html/P_SpotifyWebApi_Model_List_MultipleAlbums_Albums.htm" />
+  <HelpKINode Title="AlbumType enumeration" Url="html/T_SpotifyWebApi_Model_Enum_AlbumType.htm" />
+  <HelpKINode Title="AlbumType property">
+    <HelpKINode Title="FullAlbum.AlbumType Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_AlbumType.htm" />
+    <HelpKINode Title="SimpleAlbum.AlbumType Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_AlbumType.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiHelper class">
+    <HelpKINode Title="ApiHelper Class" Url="html/T_SpotifyWebApi_Business_ApiHelper.htm" />
+    <HelpKINode Title="about ApiHelper class" Url="html/T_SpotifyWebApi_Business_ApiHelper.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Business_ApiHelper__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_SpotifyWebApi_Business_ApiHelper.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Business_ApiHelper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ApiHelper.ApiHelper constructor" Url="html/M_SpotifyWebApi_Business_ApiHelper__ctor.htm" />
+  <HelpKINode Title="ApiHelper.Base64Encode method" Url="html/M_SpotifyWebApi_Business_ApiHelper_Base64Encode.htm" />
+  <HelpKINode Title="ApiHelper.BaseUri field" Url="html/F_SpotifyWebApi_Business_ApiHelper_BaseUri.htm" />
+  <HelpKINode Title="ApiHelper.CreateRequest method" Url="html/M_SpotifyWebApi_Business_ApiHelper_CreateRequest.htm" />
+  <HelpKINode Title="ApiHelper.GetJsonFromUrl method" Url="html/M_SpotifyWebApi_Business_ApiHelper_GetJsonFromUrl.htm" />
+  <HelpKINode Title="ApiHelper.GetObjectFromUrl(Of T) method" Url="html/M_SpotifyWebApi_Business_ApiHelper_GetObjectFromUrl__1.htm" />
+  <HelpKINode Title="ApiHelper.GetObjectFromUrl&lt;T&gt; method" Url="html/M_SpotifyWebApi_Business_ApiHelper_GetObjectFromUrl__1.htm" />
+  <HelpKINode Title="ApiHelper.GetUri method" Url="html/M_SpotifyWebApi_Business_ApiHelper_GetUri.htm" />
+  <HelpKINode Title="ApiHelper.JsonToObject method" Url="html/Overload_SpotifyWebApi_Business_ApiHelper_JsonToObject.htm" />
+  <HelpKINode Title="AppearsOn enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_AlbumType.htm" />
+  <HelpKINode Title="Artist enumeration member" Url="html/T_SpotifyWebApi_Model_Uri_UriType.htm" />
+  <HelpKINode Title="Artist property">
+    <HelpKINode Title="ISpotifyWebApi.Artist Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Artist.htm" />
+    <HelpKINode Title="SpotifyWebApi.Artist Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Artist.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ArtistApi class">
+    <HelpKINode Title="ArtistApi Class" Url="html/T_SpotifyWebApi_Api_Artist_ArtistApi.htm" />
+    <HelpKINode Title="about ArtistApi class" Url="html/T_SpotifyWebApi_Api_Artist_ArtistApi.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Api_Artist_ArtistApi.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Api_Artist_ArtistApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ArtistApi.ArtistApi constructor" Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi__ctor.htm" />
+  <HelpKINode Title="ArtistApi.GetArtist method" Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtist.htm" />
+  <HelpKINode Title="ArtistApi.GetArtistAlbums method" Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtistAlbums.htm" />
+  <HelpKINode Title="ArtistApi.GetArtists method" Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtists.htm" />
+  <HelpKINode Title="ArtistApi.GetArtistsRelatedArtists method" Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtistsRelatedArtists.htm" />
+  <HelpKINode Title="ArtistApi.GetArtistsTopTracks method" Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtistsTopTracks.htm" />
+  <HelpKINode Title="Artists property">
+    <HelpKINode Title="FullAlbum.Artists Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Artists.htm" />
+    <HelpKINode Title="FullTrack.Artists Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Artists.htm" />
+    <HelpKINode Title="MultipleArtists.Artists Property " Url="html/P_SpotifyWebApi_Model_List_MultipleArtists_Artists.htm" />
+    <HelpKINode Title="SimpleAlbum.Artists Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Artists.htm" />
+    <HelpKINode Title="SimpleTrack.Artists Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Artists.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AsString method">
+    <HelpKINode Title="EnumExtensions.AsString Method " Url="html/M_SpotifyWebApi_Model_Enum_EnumExtensions_AsString.htm" />
+    <HelpKINode Title="ScopeExtension.AsString Method " Url="html/M_SpotifyWebApi_Model_Enum_ScopeExtension_AsString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AuthorizationCode class">
+    <HelpKINode Title="AuthorizationCode Class" Url="html/T_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode.htm" />
+    <HelpKINode Title="about AuthorizationCode class" Url="html/T_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AuthorizationCode.GetUrl method" Url="html/M_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode_GetUrl.htm" />
+  <HelpKINode Title="AuthorizationCode.ProcessCallback method" Url="html/M_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode_ProcessCallback.htm" />
+  <HelpKINode Title="AuthParameters class">
+    <HelpKINode Title="AuthParameters Class" Url="html/T_SpotifyWebApi_Auth_AuthParameters.htm" />
+    <HelpKINode Title="about AuthParameters class" Url="html/T_SpotifyWebApi_Auth_AuthParameters.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Auth_AuthParameters__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Auth_AuthParameters.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AuthParameters.AuthParameters constructor" Url="html/M_SpotifyWebApi_Auth_AuthParameters__ctor.htm" />
+  <HelpKINode Title="AuthParameters.ClientId property" Url="html/P_SpotifyWebApi_Auth_AuthParameters_ClientId.htm" />
+  <HelpKINode Title="AuthParameters.ClientSecret property" Url="html/P_SpotifyWebApi_Auth_AuthParameters_ClientSecret.htm" />
+  <HelpKINode Title="AuthParameters.RedirectUri property" Url="html/P_SpotifyWebApi_Auth_AuthParameters_RedirectUri.htm" />
+  <HelpKINode Title="AuthParameters.Scopes property" Url="html/P_SpotifyWebApi_Auth_AuthParameters_Scopes.htm" />
+  <HelpKINode Title="AuthParameters.ShowDialog property" Url="html/P_SpotifyWebApi_Auth_AuthParameters_ShowDialog.htm" />
+  <HelpKINode Title="AvailableMarkets property">
+    <HelpKINode Title="FullAlbum.AvailableMarkets Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_AvailableMarkets.htm" />
+    <HelpKINode Title="FullTrack.AvailableMarkets Property " Url="html/P_SpotifyWebApi_Model_FullTrack_AvailableMarkets.htm" />
+    <HelpKINode Title="SimpleAlbum.AvailableMarkets Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_AvailableMarkets.htm" />
+    <HelpKINode Title="SimpleTrack.AvailableMarkets Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_AvailableMarkets.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Base64Encode method" Url="html/M_SpotifyWebApi_Business_ApiHelper_Base64Encode.htm" />
+  <HelpKINode Title="BaseApi class">
+    <HelpKINode Title="BaseApi Class" Url="html/T_SpotifyWebApi_Api_BaseApi.htm" />
+    <HelpKINode Title="about BaseApi class" Url="html/T_SpotifyWebApi_Api_BaseApi.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Api_BaseApi__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Api_BaseApi.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Api_BaseApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseApi.AddMarketCode method" Url="html/M_SpotifyWebApi_Api_BaseApi_AddMarketCode.htm" />
+  <HelpKINode Title="BaseApi.BaseApi constructor" Url="html/M_SpotifyWebApi_Api_BaseApi__ctor.htm" />
+  <HelpKINode Title="BaseApi.Token property" Url="html/P_SpotifyWebApi_Api_BaseApi_Token.htm" />
+  <HelpKINode Title="BaseUri field" Url="html/F_SpotifyWebApi_Business_ApiHelper_BaseUri.htm" />
+  <HelpKINode Title="Birthdate property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Birthdate.htm" />
+  <HelpKINode Title="Browse property">
+    <HelpKINode Title="ISpotifyWebApi.Browse Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Browse.htm" />
+    <HelpKINode Title="SpotifyWebApi.Browse Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Browse.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClientId property" Url="html/P_SpotifyWebApi_Auth_AuthParameters_ClientId.htm" />
+  <HelpKINode Title="ClientSecret property" Url="html/P_SpotifyWebApi_Auth_AuthParameters_ClientSecret.htm" />
+  <HelpKINode Title="Code property" Url="html/P_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest_Code.htm" />
+  <HelpKINode Title="Collaborative property">
+    <HelpKINode Title="FullPlaylist.Collaborative Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Collaborative.htm" />
+    <HelpKINode Title="SimplePlaylist.Collaborative Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Collaborative.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Compilation enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_AlbumType.htm" />
+  <HelpKINode Title="Copyright class">
+    <HelpKINode Title="Copyright Class" Url="html/T_SpotifyWebApi_Model_Copyright.htm" />
+    <HelpKINode Title="about Copyright class" Url="html/T_SpotifyWebApi_Model_Copyright.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_Copyright__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_Copyright.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Copyright.Copyright constructor" Url="html/M_SpotifyWebApi_Model_Copyright__ctor.htm" />
+  <HelpKINode Title="Copyright.Text property" Url="html/P_SpotifyWebApi_Model_Copyright_Text.htm" />
+  <HelpKINode Title="Copyright.Type property" Url="html/P_SpotifyWebApi_Model_Copyright_Type.htm" />
+  <HelpKINode Title="Copyrights property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Copyrights.htm" />
+  <HelpKINode Title="Country property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Country.htm" />
+  <HelpKINode Title="CreateRequest method" Url="html/M_SpotifyWebApi_Business_ApiHelper_CreateRequest.htm" />
+  <HelpKINode Title="Cursor class">
+    <HelpKINode Title="Cursor Class" Url="html/T_SpotifyWebApi_Model_Cursor.htm" />
+    <HelpKINode Title="about Cursor class" Url="html/T_SpotifyWebApi_Model_Cursor.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_Cursor__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_Cursor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cursor.After property" Url="html/P_SpotifyWebApi_Model_Cursor_After.htm" />
+  <HelpKINode Title="Cursor.Cursor constructor" Url="html/M_SpotifyWebApi_Model_Cursor__ctor.htm" />
+  <HelpKINode Title="CursorPaging(Of T) class">
+    <HelpKINode Title="CursorPaging(T) Class" Url="html/T_SpotifyWebApi_Model_CursorPaging_1.htm" />
+    <HelpKINode Title="about CursorPaging(Of T) class" Url="html/T_SpotifyWebApi_Model_CursorPaging_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_CursorPaging_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_CursorPaging_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CursorPaging(Of T).CursorPaging constructor" Url="html/M_SpotifyWebApi_Model_CursorPaging_1__ctor.htm" />
+  <HelpKINode Title="CursorPaging(Of T).Cursors property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Cursors.htm" />
+  <HelpKINode Title="CursorPaging(Of T).Href property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Href.htm" />
+  <HelpKINode Title="CursorPaging(Of T).Items property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Items.htm" />
+  <HelpKINode Title="CursorPaging(Of T).Limit property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Limit.htm" />
+  <HelpKINode Title="CursorPaging(Of T).Next property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Next.htm" />
+  <HelpKINode Title="CursorPaging(Of T).Total property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Total.htm" />
+  <HelpKINode Title="CursorPaging&lt;T&gt; class">
+    <HelpKINode Title="CursorPaging(T) Class" Url="html/T_SpotifyWebApi_Model_CursorPaging_1.htm" />
+    <HelpKINode Title="about CursorPaging&lt;T&gt; class" Url="html/T_SpotifyWebApi_Model_CursorPaging_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_CursorPaging_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_CursorPaging_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CursorPaging&lt;T&gt;.CursorPaging constructor" Url="html/M_SpotifyWebApi_Model_CursorPaging_1__ctor.htm" />
+  <HelpKINode Title="CursorPaging&lt;T&gt;.Cursors property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Cursors.htm" />
+  <HelpKINode Title="CursorPaging&lt;T&gt;.Href property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Href.htm" />
+  <HelpKINode Title="CursorPaging&lt;T&gt;.Items property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Items.htm" />
+  <HelpKINode Title="CursorPaging&lt;T&gt;.Limit property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Limit.htm" />
+  <HelpKINode Title="CursorPaging&lt;T&gt;.Next property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Next.htm" />
+  <HelpKINode Title="CursorPaging&lt;T&gt;.Total property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Total.htm" />
+  <HelpKINode Title="Cursors property" Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Cursors.htm" />
+  <HelpKINode Title="Description property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Description.htm" />
+  <HelpKINode Title="DiscNumber property">
+    <HelpKINode Title="FullTrack.DiscNumber Property " Url="html/P_SpotifyWebApi_Model_FullTrack_DiscNumber.htm" />
+    <HelpKINode Title="SimpleTrack.DiscNumber Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_DiscNumber.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DisplayName property">
+    <HelpKINode Title="PrivateUser.DisplayName Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_DisplayName.htm" />
+    <HelpKINode Title="PublicUser.DisplayName Property " Url="html/P_SpotifyWebApi_Model_PublicUser_DisplayName.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Domain property" Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_Domain.htm" />
+  <HelpKINode Title="DurationMs property">
+    <HelpKINode Title="FullTrack.DurationMs Property " Url="html/P_SpotifyWebApi_Model_FullTrack_DurationMs.htm" />
+    <HelpKINode Title="SimpleTrack.DurationMs Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_DurationMs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Email property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Email.htm" />
+  <HelpKINode Title="EnumExtensions class">
+    <HelpKINode Title="EnumExtensions Class" Url="html/T_SpotifyWebApi_Model_Enum_EnumExtensions.htm" />
+    <HelpKINode Title="about EnumExtensions class" Url="html/T_SpotifyWebApi_Model_Enum_EnumExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Model_Enum_EnumExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnumExtensions.AsString method" Url="html/M_SpotifyWebApi_Model_Enum_EnumExtensions_AsString.htm" />
+  <HelpKINode Title="Equals method" Url="html/M_SpotifyWebApi_Model_FullTrack_Equals.htm" />
+  <HelpKINode Title="Error class">
+    <HelpKINode Title="Error Class" Url="html/T_SpotifyWebApi_Model_Error.htm" />
+    <HelpKINode Title="about Error class" Url="html/T_SpotifyWebApi_Model_Error.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_Error__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_Error.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Error.Error constructor" Url="html/M_SpotifyWebApi_Model_Error__ctor.htm" />
+  <HelpKINode Title="Error.Message property" Url="html/P_SpotifyWebApi_Model_Error_Message.htm" />
+  <HelpKINode Title="Error.Status property" Url="html/P_SpotifyWebApi_Model_Error_Status.htm" />
+  <HelpKINode Title="ExpiresIn property" Url="html/P_SpotifyWebApi_Model_Auth_Token_ExpiresIn.htm" />
+  <HelpKINode Title="Explicit property">
+    <HelpKINode Title="FullTrack.Explicit Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Explicit.htm" />
+    <HelpKINode Title="SimpleTrack.Explicit Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Explicit.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalIds property">
+    <HelpKINode Title="FullAlbum.ExternalIds Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_ExternalIds.htm" />
+    <HelpKINode Title="FullTrack.ExternalIds Property " Url="html/P_SpotifyWebApi_Model_FullTrack_ExternalIds.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExternalUrls property">
+    <HelpKINode Title="FullAlbum.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_ExternalUrls.htm" />
+    <HelpKINode Title="FullArtist.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_FullArtist_ExternalUrls.htm" />
+    <HelpKINode Title="FullPlaylist.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_ExternalUrls.htm" />
+    <HelpKINode Title="FullTrack.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_FullTrack_ExternalUrls.htm" />
+    <HelpKINode Title="LinkedFrom.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_ExternalUrls.htm" />
+    <HelpKINode Title="PrivateUser.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_ExternalUrls.htm" />
+    <HelpKINode Title="PublicUser.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_PublicUser_ExternalUrls.htm" />
+    <HelpKINode Title="SimpleAlbum.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_ExternalUrls.htm" />
+    <HelpKINode Title="SimpleArtist.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_ExternalUrls.htm" />
+    <HelpKINode Title="SimplePlaylist.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_ExternalUrls.htm" />
+    <HelpKINode Title="SimpleTrack.ExternalUrls Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_ExternalUrls.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Follow property">
+    <HelpKINode Title="ISpotifyWebApi.Follow Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Follow.htm" />
+    <HelpKINode Title="SpotifyWebApi.Follow Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Follow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Followers class">
+    <HelpKINode Title="Followers Class" Url="html/T_SpotifyWebApi_Model_Followers.htm" />
+    <HelpKINode Title="about Followers class" Url="html/T_SpotifyWebApi_Model_Followers.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_Followers__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_Followers.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Followers property">
+    <HelpKINode Title="FullArtist.Followers Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Followers.htm" />
+    <HelpKINode Title="FullPlaylist.Followers Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Followers.htm" />
+    <HelpKINode Title="PrivateUser.Followers Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Followers.htm" />
+    <HelpKINode Title="PublicUser.Followers Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Followers.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Followers.Followers constructor" Url="html/M_SpotifyWebApi_Model_Followers__ctor.htm" />
+  <HelpKINode Title="Followers.Href property" Url="html/P_SpotifyWebApi_Model_Followers_Href.htm" />
+  <HelpKINode Title="Followers.Total property" Url="html/P_SpotifyWebApi_Model_Followers_Total.htm" />
+  <HelpKINode Title="FullAlbum class">
+    <HelpKINode Title="FullAlbum Class" Url="html/T_SpotifyWebApi_Model_FullAlbum.htm" />
+    <HelpKINode Title="about FullAlbum class" Url="html/T_SpotifyWebApi_Model_FullAlbum.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_FullAlbum__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_FullAlbum.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FullAlbum.AlbumType property" Url="html/P_SpotifyWebApi_Model_FullAlbum_AlbumType.htm" />
+  <HelpKINode Title="FullAlbum.Artists property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Artists.htm" />
+  <HelpKINode Title="FullAlbum.AvailableMarkets property" Url="html/P_SpotifyWebApi_Model_FullAlbum_AvailableMarkets.htm" />
+  <HelpKINode Title="FullAlbum.Copyrights property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Copyrights.htm" />
+  <HelpKINode Title="FullAlbum.ExternalIds property" Url="html/P_SpotifyWebApi_Model_FullAlbum_ExternalIds.htm" />
+  <HelpKINode Title="FullAlbum.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_FullAlbum_ExternalUrls.htm" />
+  <HelpKINode Title="FullAlbum.FullAlbum constructor" Url="html/M_SpotifyWebApi_Model_FullAlbum__ctor.htm" />
+  <HelpKINode Title="FullAlbum.Genres property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Genres.htm" />
+  <HelpKINode Title="FullAlbum.Href property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Href.htm" />
+  <HelpKINode Title="FullAlbum.Id property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Id.htm" />
+  <HelpKINode Title="FullAlbum.Images property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Images.htm" />
+  <HelpKINode Title="FullAlbum.Label property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Label.htm" />
+  <HelpKINode Title="FullAlbum.Name property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Name.htm" />
+  <HelpKINode Title="FullAlbum.Popularity property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Popularity.htm" />
+  <HelpKINode Title="FullAlbum.ReleaseDate property" Url="html/P_SpotifyWebApi_Model_FullAlbum_ReleaseDate.htm" />
+  <HelpKINode Title="FullAlbum.ReleaseDatePrecision property" Url="html/P_SpotifyWebApi_Model_FullAlbum_ReleaseDatePrecision.htm" />
+  <HelpKINode Title="FullAlbum.Tracks property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Tracks.htm" />
+  <HelpKINode Title="FullAlbum.Type property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Type.htm" />
+  <HelpKINode Title="FullAlbum.Uri property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Uri.htm" />
+  <HelpKINode Title="FullArtist class">
+    <HelpKINode Title="FullArtist Class" Url="html/T_SpotifyWebApi_Model_FullArtist.htm" />
+    <HelpKINode Title="about FullArtist class" Url="html/T_SpotifyWebApi_Model_FullArtist.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_FullArtist__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_FullArtist.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FullArtist.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_FullArtist_ExternalUrls.htm" />
+  <HelpKINode Title="FullArtist.Followers property" Url="html/P_SpotifyWebApi_Model_FullArtist_Followers.htm" />
+  <HelpKINode Title="FullArtist.FullArtist constructor" Url="html/M_SpotifyWebApi_Model_FullArtist__ctor.htm" />
+  <HelpKINode Title="FullArtist.Genres property" Url="html/P_SpotifyWebApi_Model_FullArtist_Genres.htm" />
+  <HelpKINode Title="FullArtist.Href property" Url="html/P_SpotifyWebApi_Model_FullArtist_Href.htm" />
+  <HelpKINode Title="FullArtist.Id property" Url="html/P_SpotifyWebApi_Model_FullArtist_Id.htm" />
+  <HelpKINode Title="FullArtist.Images property" Url="html/P_SpotifyWebApi_Model_FullArtist_Images.htm" />
+  <HelpKINode Title="FullArtist.Name property" Url="html/P_SpotifyWebApi_Model_FullArtist_Name.htm" />
+  <HelpKINode Title="FullArtist.Popularity property" Url="html/P_SpotifyWebApi_Model_FullArtist_Popularity.htm" />
+  <HelpKINode Title="FullArtist.Type property" Url="html/P_SpotifyWebApi_Model_FullArtist_Type.htm" />
+  <HelpKINode Title="FullArtist.Uri property" Url="html/P_SpotifyWebApi_Model_FullArtist_Uri.htm" />
+  <HelpKINode Title="FullPlaylist class">
+    <HelpKINode Title="FullPlaylist Class" Url="html/T_SpotifyWebApi_Model_FullPlaylist.htm" />
+    <HelpKINode Title="about FullPlaylist class" Url="html/T_SpotifyWebApi_Model_FullPlaylist.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_FullPlaylist__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_FullPlaylist.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FullPlaylist.Collaborative property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Collaborative.htm" />
+  <HelpKINode Title="FullPlaylist.Description property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Description.htm" />
+  <HelpKINode Title="FullPlaylist.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_ExternalUrls.htm" />
+  <HelpKINode Title="FullPlaylist.Followers property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Followers.htm" />
+  <HelpKINode Title="FullPlaylist.FullPlaylist constructor" Url="html/M_SpotifyWebApi_Model_FullPlaylist__ctor.htm" />
+  <HelpKINode Title="FullPlaylist.Href property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Href.htm" />
+  <HelpKINode Title="FullPlaylist.Id property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Id.htm" />
+  <HelpKINode Title="FullPlaylist.Images property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Images.htm" />
+  <HelpKINode Title="FullPlaylist.Name property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Name.htm" />
+  <HelpKINode Title="FullPlaylist.Owner property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Owner.htm" />
+  <HelpKINode Title="FullPlaylist.Public property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Public.htm" />
+  <HelpKINode Title="FullPlaylist.SnapshotId property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_SnapshotId.htm" />
+  <HelpKINode Title="FullPlaylist.TrackList property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_TrackList.htm" />
+  <HelpKINode Title="FullPlaylist.Tracks property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Tracks.htm" />
+  <HelpKINode Title="FullPlaylist.Type property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Type.htm" />
+  <HelpKINode Title="FullPlaylist.Uri property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_Uri.htm" />
+  <HelpKINode Title="FullTrack class">
+    <HelpKINode Title="FullTrack Class" Url="html/T_SpotifyWebApi_Model_FullTrack.htm" />
+    <HelpKINode Title="about FullTrack class" Url="html/T_SpotifyWebApi_Model_FullTrack.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_FullTrack__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Model_FullTrack.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_FullTrack.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FullTrack.Album property" Url="html/P_SpotifyWebApi_Model_FullTrack_Album.htm" />
+  <HelpKINode Title="FullTrack.Artists property" Url="html/P_SpotifyWebApi_Model_FullTrack_Artists.htm" />
+  <HelpKINode Title="FullTrack.AvailableMarkets property" Url="html/P_SpotifyWebApi_Model_FullTrack_AvailableMarkets.htm" />
+  <HelpKINode Title="FullTrack.DiscNumber property" Url="html/P_SpotifyWebApi_Model_FullTrack_DiscNumber.htm" />
+  <HelpKINode Title="FullTrack.DurationMs property" Url="html/P_SpotifyWebApi_Model_FullTrack_DurationMs.htm" />
+  <HelpKINode Title="FullTrack.Equals method" Url="html/M_SpotifyWebApi_Model_FullTrack_Equals.htm" />
+  <HelpKINode Title="FullTrack.Explicit property" Url="html/P_SpotifyWebApi_Model_FullTrack_Explicit.htm" />
+  <HelpKINode Title="FullTrack.ExternalIds property" Url="html/P_SpotifyWebApi_Model_FullTrack_ExternalIds.htm" />
+  <HelpKINode Title="FullTrack.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_FullTrack_ExternalUrls.htm" />
+  <HelpKINode Title="FullTrack.FullTrack constructor" Url="html/M_SpotifyWebApi_Model_FullTrack__ctor.htm" />
+  <HelpKINode Title="FullTrack.GetHashCode method" Url="html/M_SpotifyWebApi_Model_FullTrack_GetHashCode.htm" />
+  <HelpKINode Title="FullTrack.Href property" Url="html/P_SpotifyWebApi_Model_FullTrack_Href.htm" />
+  <HelpKINode Title="FullTrack.Id property" Url="html/P_SpotifyWebApi_Model_FullTrack_Id.htm" />
+  <HelpKINode Title="FullTrack.IsPlayable property" Url="html/P_SpotifyWebApi_Model_FullTrack_IsPlayable.htm" />
+  <HelpKINode Title="FullTrack.LinkedFrom property" Url="html/P_SpotifyWebApi_Model_FullTrack_LinkedFrom.htm" />
+  <HelpKINode Title="FullTrack.Name property" Url="html/P_SpotifyWebApi_Model_FullTrack_Name.htm" />
+  <HelpKINode Title="FullTrack.Popularity property" Url="html/P_SpotifyWebApi_Model_FullTrack_Popularity.htm" />
+  <HelpKINode Title="FullTrack.PreviewUrl property" Url="html/P_SpotifyWebApi_Model_FullTrack_PreviewUrl.htm" />
+  <HelpKINode Title="FullTrack.TrackNumber property" Url="html/P_SpotifyWebApi_Model_FullTrack_TrackNumber.htm" />
+  <HelpKINode Title="FullTrack.Type property" Url="html/P_SpotifyWebApi_Model_FullTrack_Type.htm" />
+  <HelpKINode Title="FullTrack.Uri property" Url="html/P_SpotifyWebApi_Model_FullTrack_Uri.htm" />
+  <HelpKINode Title="FullUri property" Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_FullUri.htm" />
+  <HelpKINode Title="Genres property">
+    <HelpKINode Title="FullAlbum.Genres Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Genres.htm" />
+    <HelpKINode Title="FullArtist.Genres Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Genres.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetAlbum method">
+    <HelpKINode Title="AlbumApi.GetAlbum Method " Url="html/M_SpotifyWebApi_Api_Album_AlbumApi_GetAlbum.htm" />
+    <HelpKINode Title="IAlbumApi.GetAlbum Method " Url="html/M_SpotifyWebApi_Api_Album_IAlbumApi_GetAlbum.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetAlbums method">
+    <HelpKINode Title="AlbumApi.GetAlbums Method " Url="html/M_SpotifyWebApi_Api_Album_AlbumApi_GetAlbums.htm" />
+    <HelpKINode Title="IAlbumApi.GetAlbums Method " Url="html/M_SpotifyWebApi_Api_Album_IAlbumApi_GetAlbums.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetAlbumTracks method">
+    <HelpKINode Title="AlbumApi.GetAlbumTracks Method " Url="html/M_SpotifyWebApi_Api_Album_AlbumApi_GetAlbumTracks.htm" />
+    <HelpKINode Title="IAlbumApi.GetAlbumTracks Method " Url="html/M_SpotifyWebApi_Api_Album_IAlbumApi_GetAlbumTracks.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetArtist method">
+    <HelpKINode Title="ArtistApi.GetArtist Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtist.htm" />
+    <HelpKINode Title="IArtistApi.GetArtist Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtist.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetArtistAlbums method">
+    <HelpKINode Title="ArtistApi.GetArtistAlbums Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtistAlbums.htm" />
+    <HelpKINode Title="IArtistApi.GetArtistAlbums Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtistAlbums.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetArtists method">
+    <HelpKINode Title="ArtistApi.GetArtists Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtists.htm" />
+    <HelpKINode Title="IArtistApi.GetArtists Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtists.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetArtistsRelatedArtists method">
+    <HelpKINode Title="ArtistApi.GetArtistsRelatedArtists Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtistsRelatedArtists.htm" />
+    <HelpKINode Title="IArtistApi.GetArtistsRelatedArtists Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtistsRelatedArtists.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetArtistsTopTracks method">
+    <HelpKINode Title="ArtistApi.GetArtistsTopTracks Method " Url="html/M_SpotifyWebApi_Api_Artist_ArtistApi_GetArtistsTopTracks.htm" />
+    <HelpKINode Title="IArtistApi.GetArtistsTopTracks Method " Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtistsTopTracks.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetHashCode method" Url="html/M_SpotifyWebApi_Model_FullTrack_GetHashCode.htm" />
+  <HelpKINode Title="GetJsonFromUrl method" Url="html/M_SpotifyWebApi_Business_ApiHelper_GetJsonFromUrl.htm" />
+  <HelpKINode Title="GetMe method">
+    <HelpKINode Title="IUserProfileApi.GetMe Method " Url="html/M_SpotifyWebApi_Api_UserProfile_IUserProfileApi_GetMe.htm" />
+    <HelpKINode Title="UserProfileApi.GetMe Method " Url="html/M_SpotifyWebApi_Api_UserProfile_UserProfileApi_GetMe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetObjectFromUrl(Of T) method" Url="html/M_SpotifyWebApi_Business_ApiHelper_GetObjectFromUrl__1.htm" />
+  <HelpKINode Title="GetObjectFromUrl&lt;T&gt; method" Url="html/M_SpotifyWebApi_Business_ApiHelper_GetObjectFromUrl__1.htm" />
+  <HelpKINode Title="GetUri method" Url="html/M_SpotifyWebApi_Business_ApiHelper_GetUri.htm" />
+  <HelpKINode Title="GetUrl method" Url="html/M_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode_GetUrl.htm" />
+  <HelpKINode Title="GetUser method">
+    <HelpKINode Title="IUserProfileApi.GetUser Method " Url="html/M_SpotifyWebApi_Api_UserProfile_IUserProfileApi_GetUser.htm" />
+    <HelpKINode Title="UserProfileApi.GetUser Method " Url="html/M_SpotifyWebApi_Api_UserProfile_UserProfileApi_GetUser.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrantType property" Url="html/P_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest_GrantType.htm" />
+  <HelpKINode Title="Height property" Url="html/P_SpotifyWebApi_Model_Image_Height.htm" />
+  <HelpKINode Title="Href property">
+    <HelpKINode Title="CursorPaging(T).Href Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Href.htm" />
+    <HelpKINode Title="Followers.Href Property " Url="html/P_SpotifyWebApi_Model_Followers_Href.htm" />
+    <HelpKINode Title="FullAlbum.Href Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Href.htm" />
+    <HelpKINode Title="FullArtist.Href Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Href.htm" />
+    <HelpKINode Title="FullPlaylist.Href Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Href.htm" />
+    <HelpKINode Title="FullTrack.Href Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Href.htm" />
+    <HelpKINode Title="LinkedFrom.Href Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_Href.htm" />
+    <HelpKINode Title="Paging(T).Href Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Href.htm" />
+    <HelpKINode Title="PrivateUser.Href Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Href.htm" />
+    <HelpKINode Title="PublicUser.Href Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Href.htm" />
+    <HelpKINode Title="SimpleAlbum.Href Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Href.htm" />
+    <HelpKINode Title="SimpleArtist.Href Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Href.htm" />
+    <HelpKINode Title="SimplePlaylist.Href Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Href.htm" />
+    <HelpKINode Title="SimpleTrack.Href Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Href.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAlbumApi interface">
+    <HelpKINode Title="IAlbumApi Interface" Url="html/T_SpotifyWebApi_Api_Album_IAlbumApi.htm" />
+    <HelpKINode Title="about IAlbumApi interface" Url="html/T_SpotifyWebApi_Api_Album_IAlbumApi.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Api_Album_IAlbumApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAlbumApi.GetAlbum method" Url="html/M_SpotifyWebApi_Api_Album_IAlbumApi_GetAlbum.htm" />
+  <HelpKINode Title="IAlbumApi.GetAlbums method" Url="html/M_SpotifyWebApi_Api_Album_IAlbumApi_GetAlbums.htm" />
+  <HelpKINode Title="IAlbumApi.GetAlbumTracks method" Url="html/M_SpotifyWebApi_Api_Album_IAlbumApi_GetAlbumTracks.htm" />
+  <HelpKINode Title="IArtistApi interface">
+    <HelpKINode Title="IArtistApi Interface" Url="html/T_SpotifyWebApi_Api_Artist_IArtistApi.htm" />
+    <HelpKINode Title="about IArtistApi interface" Url="html/T_SpotifyWebApi_Api_Artist_IArtistApi.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Api_Artist_IArtistApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IArtistApi.GetArtist method" Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtist.htm" />
+  <HelpKINode Title="IArtistApi.GetArtistAlbums method" Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtistAlbums.htm" />
+  <HelpKINode Title="IArtistApi.GetArtists method" Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtists.htm" />
+  <HelpKINode Title="IArtistApi.GetArtistsRelatedArtists method" Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtistsRelatedArtists.htm" />
+  <HelpKINode Title="IArtistApi.GetArtistsTopTracks method" Url="html/M_SpotifyWebApi_Api_Artist_IArtistApi_GetArtistsTopTracks.htm" />
+  <HelpKINode Title="IBrowseApi interface">
+    <HelpKINode Title="IBrowseApi Interface" Url="html/T_SpotifyWebApi_Api_Browse_IBrowseApi.htm" />
+    <HelpKINode Title="about IBrowseApi interface" Url="html/T_SpotifyWebApi_Api_Browse_IBrowseApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="FullAlbum.Id Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Id.htm" />
+    <HelpKINode Title="FullArtist.Id Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Id.htm" />
+    <HelpKINode Title="FullPlaylist.Id Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Id.htm" />
+    <HelpKINode Title="FullTrack.Id Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Id.htm" />
+    <HelpKINode Title="LinkedFrom.Id Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_Id.htm" />
+    <HelpKINode Title="PrivateUser.Id Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Id.htm" />
+    <HelpKINode Title="PublicUser.Id Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Id.htm" />
+    <HelpKINode Title="SimpleAlbum.Id Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Id.htm" />
+    <HelpKINode Title="SimpleArtist.Id Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Id.htm" />
+    <HelpKINode Title="SimplePlaylist.Id Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Id.htm" />
+    <HelpKINode Title="SimpleTrack.Id Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Id.htm" />
+    <HelpKINode Title="SpotifyUri.Id Property " Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_Id.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFollowApi interface">
+    <HelpKINode Title="IFollowApi Interface" Url="html/T_SpotifyWebApi_Api_Follow_IFollowApi.htm" />
+    <HelpKINode Title="about IFollowApi interface" Url="html/T_SpotifyWebApi_Api_Follow_IFollowApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Image class">
+    <HelpKINode Title="Image Class" Url="html/T_SpotifyWebApi_Model_Image.htm" />
+    <HelpKINode Title="about Image class" Url="html/T_SpotifyWebApi_Model_Image.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_Image__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_Image.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Image.Height property" Url="html/P_SpotifyWebApi_Model_Image_Height.htm" />
+  <HelpKINode Title="Image.Image constructor" Url="html/M_SpotifyWebApi_Model_Image__ctor.htm" />
+  <HelpKINode Title="Image.Url property" Url="html/P_SpotifyWebApi_Model_Image_Url.htm" />
+  <HelpKINode Title="Image.Width property" Url="html/P_SpotifyWebApi_Model_Image_Width.htm" />
+  <HelpKINode Title="Images property">
+    <HelpKINode Title="FullAlbum.Images Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Images.htm" />
+    <HelpKINode Title="FullArtist.Images Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Images.htm" />
+    <HelpKINode Title="FullPlaylist.Images Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Images.htm" />
+    <HelpKINode Title="PrivateUser.Images Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Images.htm" />
+    <HelpKINode Title="PublicUser.Images Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Images.htm" />
+    <HelpKINode Title="SimpleAlbum.Images Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Images.htm" />
+    <HelpKINode Title="SimplePlaylist.Images Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Images.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPersonalizationApi interface">
+    <HelpKINode Title="IPersonalizationApi Interface" Url="html/T_SpotifyWebApi_Api_Personalization_IPersonalizationApi.htm" />
+    <HelpKINode Title="about IPersonalizationApi interface" Url="html/T_SpotifyWebApi_Api_Personalization_IPersonalizationApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPlayerApi interface">
+    <HelpKINode Title="IPlayerApi Interface" Url="html/T_SpotifyWebApi_Api_Player_IPlayerApi.htm" />
+    <HelpKINode Title="about IPlayerApi interface" Url="html/T_SpotifyWebApi_Api_Player_IPlayerApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPlaylistApi interface">
+    <HelpKINode Title="IPlaylistApi Interface" Url="html/T_SpotifyWebApi_Api_Playlist_IPlaylistApi.htm" />
+    <HelpKINode Title="about IPlaylistApi interface" Url="html/T_SpotifyWebApi_Api_Playlist_IPlaylistApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISearchApi interface">
+    <HelpKINode Title="ISearchApi Interface" Url="html/T_SpotifyWebApi_Api_Search_ISearchApi.htm" />
+    <HelpKINode Title="about ISearchApi interface" Url="html/T_SpotifyWebApi_Api_Search_ISearchApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsExpired property" Url="html/P_SpotifyWebApi_Model_Auth_Token_IsExpired.htm" />
+  <HelpKINode Title="IsLocal property" Url="html/P_SpotifyWebApi_Model_PlaylistTrack_IsLocal.htm" />
+  <HelpKINode Title="IsPlayable property" Url="html/P_SpotifyWebApi_Model_FullTrack_IsPlayable.htm" />
+  <HelpKINode Title="ISpotifyWebApi interface">
+    <HelpKINode Title="ISpotifyWebApi Interface" Url="html/T_SpotifyWebApi_ISpotifyWebApi.htm" />
+    <HelpKINode Title="about ISpotifyWebApi interface" Url="html/T_SpotifyWebApi_ISpotifyWebApi.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_ISpotifyWebApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ISpotifyWebApi.Album property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_Album.htm" />
+  <HelpKINode Title="ISpotifyWebApi.Artist property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_Artist.htm" />
+  <HelpKINode Title="ISpotifyWebApi.Browse property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_Browse.htm" />
+  <HelpKINode Title="ISpotifyWebApi.Follow property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_Follow.htm" />
+  <HelpKINode Title="ISpotifyWebApi.Personalization property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_Personalization.htm" />
+  <HelpKINode Title="ISpotifyWebApi.Player property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_Player.htm" />
+  <HelpKINode Title="ISpotifyWebApi.Playlist property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_Playlist.htm" />
+  <HelpKINode Title="ISpotifyWebApi.Search property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_Search.htm" />
+  <HelpKINode Title="ISpotifyWebApi.Track property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_Track.htm" />
+  <HelpKINode Title="ISpotifyWebApi.UserLibrary property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_UserLibrary.htm" />
+  <HelpKINode Title="ISpotifyWebApi.UserProfile property" Url="html/P_SpotifyWebApi_ISpotifyWebApi_UserProfile.htm" />
+  <HelpKINode Title="Items property">
+    <HelpKINode Title="CursorPaging(T).Items Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Items.htm" />
+    <HelpKINode Title="Paging(T).Items Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Items.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITrackApi interface">
+    <HelpKINode Title="ITrackApi Interface" Url="html/T_SpotifyWebApi_Api_Track_ITrackApi.htm" />
+    <HelpKINode Title="about ITrackApi interface" Url="html/T_SpotifyWebApi_Api_Track_ITrackApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IUserLibraryApi interface">
+    <HelpKINode Title="IUserLibraryApi Interface" Url="html/T_SpotifyWebApi_Api_UserLibrary_IUserLibraryApi.htm" />
+    <HelpKINode Title="about IUserLibraryApi interface" Url="html/T_SpotifyWebApi_Api_UserLibrary_IUserLibraryApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IUserProfileApi interface">
+    <HelpKINode Title="IUserProfileApi Interface" Url="html/T_SpotifyWebApi_Api_UserProfile_IUserProfileApi.htm" />
+    <HelpKINode Title="about IUserProfileApi interface" Url="html/T_SpotifyWebApi_Api_UserProfile_IUserProfileApi.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Api_UserProfile_IUserProfileApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IUserProfileApi.GetMe method" Url="html/M_SpotifyWebApi_Api_UserProfile_IUserProfileApi_GetMe.htm" />
+  <HelpKINode Title="IUserProfileApi.GetUser method" Url="html/M_SpotifyWebApi_Api_UserProfile_IUserProfileApi_GetUser.htm" />
+  <HelpKINode Title="JsonToObject method" Url="html/Overload_SpotifyWebApi_Business_ApiHelper_JsonToObject.htm" />
+  <HelpKINode Title="Label property" Url="html/P_SpotifyWebApi_Model_FullAlbum_Label.htm" />
+  <HelpKINode Title="Limit property">
+    <HelpKINode Title="CursorPaging(T).Limit Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Limit.htm" />
+    <HelpKINode Title="Paging(T).Limit Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Limit.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LinkedFrom class">
+    <HelpKINode Title="LinkedFrom Class" Url="html/T_SpotifyWebApi_Model_LinkedFrom.htm" />
+    <HelpKINode Title="about LinkedFrom class" Url="html/T_SpotifyWebApi_Model_LinkedFrom.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_LinkedFrom__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_LinkedFrom.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LinkedFrom property" Url="html/P_SpotifyWebApi_Model_FullTrack_LinkedFrom.htm" />
+  <HelpKINode Title="LinkedFrom.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_LinkedFrom_ExternalUrls.htm" />
+  <HelpKINode Title="LinkedFrom.Href property" Url="html/P_SpotifyWebApi_Model_LinkedFrom_Href.htm" />
+  <HelpKINode Title="LinkedFrom.Id property" Url="html/P_SpotifyWebApi_Model_LinkedFrom_Id.htm" />
+  <HelpKINode Title="LinkedFrom.LinkedFrom constructor" Url="html/M_SpotifyWebApi_Model_LinkedFrom__ctor.htm" />
+  <HelpKINode Title="LinkedFrom.Type property" Url="html/P_SpotifyWebApi_Model_LinkedFrom_Type.htm" />
+  <HelpKINode Title="LinkedFrom.Uri property" Url="html/P_SpotifyWebApi_Model_LinkedFrom_Uri.htm" />
+  <HelpKINode Title="Message property" Url="html/P_SpotifyWebApi_Model_Error_Message.htm" />
+  <HelpKINode Title="MultipleAlbums class">
+    <HelpKINode Title="MultipleAlbums Class" Url="html/T_SpotifyWebApi_Model_List_MultipleAlbums.htm" />
+    <HelpKINode Title="about MultipleAlbums class" Url="html/T_SpotifyWebApi_Model_List_MultipleAlbums.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_List_MultipleAlbums__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_List_MultipleAlbums.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MultipleAlbums.Albums property" Url="html/P_SpotifyWebApi_Model_List_MultipleAlbums_Albums.htm" />
+  <HelpKINode Title="MultipleAlbums.MultipleAlbums constructor" Url="html/M_SpotifyWebApi_Model_List_MultipleAlbums__ctor.htm" />
+  <HelpKINode Title="MultipleArtists class">
+    <HelpKINode Title="MultipleArtists Class" Url="html/T_SpotifyWebApi_Model_List_MultipleArtists.htm" />
+    <HelpKINode Title="about MultipleArtists class" Url="html/T_SpotifyWebApi_Model_List_MultipleArtists.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_List_MultipleArtists__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_List_MultipleArtists.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MultipleArtists.Artists property" Url="html/P_SpotifyWebApi_Model_List_MultipleArtists_Artists.htm" />
+  <HelpKINode Title="MultipleArtists.MultipleArtists constructor" Url="html/M_SpotifyWebApi_Model_List_MultipleArtists__ctor.htm" />
+  <HelpKINode Title="MultiplePlaylists class">
+    <HelpKINode Title="MultiplePlaylists Class" Url="html/T_SpotifyWebApi_Model_List_MultiplePlaylists.htm" />
+    <HelpKINode Title="about MultiplePlaylists class" Url="html/T_SpotifyWebApi_Model_List_MultiplePlaylists.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_List_MultiplePlaylists__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_List_MultiplePlaylists.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MultiplePlaylists.MultiplePlaylists constructor" Url="html/M_SpotifyWebApi_Model_List_MultiplePlaylists__ctor.htm" />
+  <HelpKINode Title="MultiplePlaylists.Playlists property" Url="html/P_SpotifyWebApi_Model_List_MultiplePlaylists_Playlists.htm" />
+  <HelpKINode Title="MultipleTracks class">
+    <HelpKINode Title="MultipleTracks Class" Url="html/T_SpotifyWebApi_Model_List_MultipleTracks.htm" />
+    <HelpKINode Title="about MultipleTracks class" Url="html/T_SpotifyWebApi_Model_List_MultipleTracks.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_List_MultipleTracks__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_List_MultipleTracks.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MultipleTracks.MultipleTracks constructor" Url="html/M_SpotifyWebApi_Model_List_MultipleTracks__ctor.htm" />
+  <HelpKINode Title="MultipleTracks.Tracks property" Url="html/P_SpotifyWebApi_Model_List_MultipleTracks_Tracks.htm" />
+  <HelpKINode Title="Name property">
+    <HelpKINode Title="FullAlbum.Name Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Name.htm" />
+    <HelpKINode Title="FullArtist.Name Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Name.htm" />
+    <HelpKINode Title="FullPlaylist.Name Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Name.htm" />
+    <HelpKINode Title="FullTrack.Name Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Name.htm" />
+    <HelpKINode Title="SimpleAlbum.Name Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Name.htm" />
+    <HelpKINode Title="SimpleArtist.Name Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Name.htm" />
+    <HelpKINode Title="SimplePlaylist.Name Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Name.htm" />
+    <HelpKINode Title="SimpleTrack.Name Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Name.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Next property">
+    <HelpKINode Title="CursorPaging(T).Next Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Next.htm" />
+    <HelpKINode Title="Paging(T).Next Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Next.htm" />
+  </HelpKINode>
+  <HelpKINode Title="None enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="Offset property" Url="html/P_SpotifyWebApi_Model_Paging_1_Offset.htm" />
+  <HelpKINode Title="Owner property">
+    <HelpKINode Title="FullPlaylist.Owner Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Owner.htm" />
+    <HelpKINode Title="SimplePlaylist.Owner Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Owner.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Paging(Of T) class">
+    <HelpKINode Title="Paging(T) Class" Url="html/T_SpotifyWebApi_Model_Paging_1.htm" />
+    <HelpKINode Title="about Paging(Of T) class" Url="html/T_SpotifyWebApi_Model_Paging_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_Paging_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_Paging_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Paging(Of T).Href property" Url="html/P_SpotifyWebApi_Model_Paging_1_Href.htm" />
+  <HelpKINode Title="Paging(Of T).Items property" Url="html/P_SpotifyWebApi_Model_Paging_1_Items.htm" />
+  <HelpKINode Title="Paging(Of T).Limit property" Url="html/P_SpotifyWebApi_Model_Paging_1_Limit.htm" />
+  <HelpKINode Title="Paging(Of T).Next property" Url="html/P_SpotifyWebApi_Model_Paging_1_Next.htm" />
+  <HelpKINode Title="Paging(Of T).Offset property" Url="html/P_SpotifyWebApi_Model_Paging_1_Offset.htm" />
+  <HelpKINode Title="Paging(Of T).Paging constructor" Url="html/M_SpotifyWebApi_Model_Paging_1__ctor.htm" />
+  <HelpKINode Title="Paging(Of T).Previous property" Url="html/P_SpotifyWebApi_Model_Paging_1_Previous.htm" />
+  <HelpKINode Title="Paging(Of T).Total property" Url="html/P_SpotifyWebApi_Model_Paging_1_Total.htm" />
+  <HelpKINode Title="Paging&lt;T&gt; class">
+    <HelpKINode Title="Paging(T) Class" Url="html/T_SpotifyWebApi_Model_Paging_1.htm" />
+    <HelpKINode Title="about Paging&lt;T&gt; class" Url="html/T_SpotifyWebApi_Model_Paging_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_Paging_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_Paging_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Paging&lt;T&gt;.Href property" Url="html/P_SpotifyWebApi_Model_Paging_1_Href.htm" />
+  <HelpKINode Title="Paging&lt;T&gt;.Items property" Url="html/P_SpotifyWebApi_Model_Paging_1_Items.htm" />
+  <HelpKINode Title="Paging&lt;T&gt;.Limit property" Url="html/P_SpotifyWebApi_Model_Paging_1_Limit.htm" />
+  <HelpKINode Title="Paging&lt;T&gt;.Next property" Url="html/P_SpotifyWebApi_Model_Paging_1_Next.htm" />
+  <HelpKINode Title="Paging&lt;T&gt;.Offset property" Url="html/P_SpotifyWebApi_Model_Paging_1_Offset.htm" />
+  <HelpKINode Title="Paging&lt;T&gt;.Paging constructor" Url="html/M_SpotifyWebApi_Model_Paging_1__ctor.htm" />
+  <HelpKINode Title="Paging&lt;T&gt;.Previous property" Url="html/P_SpotifyWebApi_Model_Paging_1_Previous.htm" />
+  <HelpKINode Title="Paging&lt;T&gt;.Total property" Url="html/P_SpotifyWebApi_Model_Paging_1_Total.htm" />
+  <HelpKINode Title="Personalization property">
+    <HelpKINode Title="ISpotifyWebApi.Personalization Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Personalization.htm" />
+    <HelpKINode Title="SpotifyWebApi.Personalization Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Personalization.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Player property">
+    <HelpKINode Title="ISpotifyWebApi.Player Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Player.htm" />
+    <HelpKINode Title="SpotifyWebApi.Player Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Player.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Playlist enumeration member" Url="html/T_SpotifyWebApi_Model_Uri_UriType.htm" />
+  <HelpKINode Title="Playlist property">
+    <HelpKINode Title="ISpotifyWebApi.Playlist Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Playlist.htm" />
+    <HelpKINode Title="SpotifyWebApi.Playlist Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Playlist.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlaylistModifyPrivate enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="PlaylistModifyPublic enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="PlaylistReadCollaborative enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="PlaylistReadPrivate enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="Playlists property" Url="html/P_SpotifyWebApi_Model_List_MultiplePlaylists_Playlists.htm" />
+  <HelpKINode Title="PlaylistTrack class">
+    <HelpKINode Title="PlaylistTrack Class" Url="html/T_SpotifyWebApi_Model_PlaylistTrack.htm" />
+    <HelpKINode Title="about PlaylistTrack class" Url="html/T_SpotifyWebApi_Model_PlaylistTrack.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_PlaylistTrack__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_PlaylistTrack.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlaylistTrack.AddedAt property" Url="html/P_SpotifyWebApi_Model_PlaylistTrack_AddedAt.htm" />
+  <HelpKINode Title="PlaylistTrack.IsLocal property" Url="html/P_SpotifyWebApi_Model_PlaylistTrack_IsLocal.htm" />
+  <HelpKINode Title="PlaylistTrack.PlaylistTrack constructor" Url="html/M_SpotifyWebApi_Model_PlaylistTrack__ctor.htm" />
+  <HelpKINode Title="PlaylistTrack.Track property" Url="html/P_SpotifyWebApi_Model_PlaylistTrack_Track.htm" />
+  <HelpKINode Title="Popularity property">
+    <HelpKINode Title="FullAlbum.Popularity Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Popularity.htm" />
+    <HelpKINode Title="FullArtist.Popularity Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Popularity.htm" />
+    <HelpKINode Title="FullTrack.Popularity Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Popularity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PreviewUrl property">
+    <HelpKINode Title="FullTrack.PreviewUrl Property " Url="html/P_SpotifyWebApi_Model_FullTrack_PreviewUrl.htm" />
+    <HelpKINode Title="SimpleTrack.PreviewUrl Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_PreviewUrl.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Previous property" Url="html/P_SpotifyWebApi_Model_Paging_1_Previous.htm" />
+  <HelpKINode Title="PrivateUser class">
+    <HelpKINode Title="PrivateUser Class" Url="html/T_SpotifyWebApi_Model_PrivateUser.htm" />
+    <HelpKINode Title="about PrivateUser class" Url="html/T_SpotifyWebApi_Model_PrivateUser.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_PrivateUser__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_PrivateUser.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PrivateUser.Birthdate property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Birthdate.htm" />
+  <HelpKINode Title="PrivateUser.Country property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Country.htm" />
+  <HelpKINode Title="PrivateUser.DisplayName property" Url="html/P_SpotifyWebApi_Model_PrivateUser_DisplayName.htm" />
+  <HelpKINode Title="PrivateUser.Email property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Email.htm" />
+  <HelpKINode Title="PrivateUser.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_PrivateUser_ExternalUrls.htm" />
+  <HelpKINode Title="PrivateUser.Followers property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Followers.htm" />
+  <HelpKINode Title="PrivateUser.Href property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Href.htm" />
+  <HelpKINode Title="PrivateUser.Id property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Id.htm" />
+  <HelpKINode Title="PrivateUser.Images property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Images.htm" />
+  <HelpKINode Title="PrivateUser.PrivateUser constructor" Url="html/M_SpotifyWebApi_Model_PrivateUser__ctor.htm" />
+  <HelpKINode Title="PrivateUser.Product property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Product.htm" />
+  <HelpKINode Title="PrivateUser.Type property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Type.htm" />
+  <HelpKINode Title="PrivateUser.Uri property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Uri.htm" />
+  <HelpKINode Title="ProcessCallback method" Url="html/M_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode_ProcessCallback.htm" />
+  <HelpKINode Title="Product property" Url="html/P_SpotifyWebApi_Model_PrivateUser_Product.htm" />
+  <HelpKINode Title="Public property">
+    <HelpKINode Title="FullPlaylist.Public Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Public.htm" />
+    <HelpKINode Title="SimplePlaylist.Public Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Public.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublicUser class">
+    <HelpKINode Title="PublicUser Class" Url="html/T_SpotifyWebApi_Model_PublicUser.htm" />
+    <HelpKINode Title="about PublicUser class" Url="html/T_SpotifyWebApi_Model_PublicUser.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_PublicUser__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_PublicUser.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PublicUser.DisplayName property" Url="html/P_SpotifyWebApi_Model_PublicUser_DisplayName.htm" />
+  <HelpKINode Title="PublicUser.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_PublicUser_ExternalUrls.htm" />
+  <HelpKINode Title="PublicUser.Followers property" Url="html/P_SpotifyWebApi_Model_PublicUser_Followers.htm" />
+  <HelpKINode Title="PublicUser.Href property" Url="html/P_SpotifyWebApi_Model_PublicUser_Href.htm" />
+  <HelpKINode Title="PublicUser.Id property" Url="html/P_SpotifyWebApi_Model_PublicUser_Id.htm" />
+  <HelpKINode Title="PublicUser.Images property" Url="html/P_SpotifyWebApi_Model_PublicUser_Images.htm" />
+  <HelpKINode Title="PublicUser.PublicUser constructor" Url="html/M_SpotifyWebApi_Model_PublicUser__ctor.htm" />
+  <HelpKINode Title="PublicUser.Type property" Url="html/P_SpotifyWebApi_Model_PublicUser_Type.htm" />
+  <HelpKINode Title="PublicUser.Uri property" Url="html/P_SpotifyWebApi_Model_PublicUser_Uri.htm" />
+  <HelpKINode Title="RedirectUri property">
+    <HelpKINode Title="AccessTokenRequest.RedirectUri Property " Url="html/P_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest_RedirectUri.htm" />
+    <HelpKINode Title="AuthParameters.RedirectUri Property " Url="html/P_SpotifyWebApi_Auth_AuthParameters_RedirectUri.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RefreshToken property" Url="html/P_SpotifyWebApi_Model_Auth_Token_RefreshToken.htm" />
+  <HelpKINode Title="ReleaseDate property" Url="html/P_SpotifyWebApi_Model_FullAlbum_ReleaseDate.htm" />
+  <HelpKINode Title="ReleaseDatePrecision property" Url="html/P_SpotifyWebApi_Model_FullAlbum_ReleaseDatePrecision.htm" />
+  <HelpKINode Title="Response property" Url="html/P_SpotifyWebApi_Model_WebResponse_1_Response.htm" />
+  <HelpKINode Title="Scope enumeration" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="Scope property" Url="html/P_SpotifyWebApi_Model_Auth_Token_Scope.htm" />
+  <HelpKINode Title="ScopeExtension class">
+    <HelpKINode Title="ScopeExtension Class" Url="html/T_SpotifyWebApi_Model_Enum_ScopeExtension.htm" />
+    <HelpKINode Title="about ScopeExtension class" Url="html/T_SpotifyWebApi_Model_Enum_ScopeExtension.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Model_Enum_ScopeExtension.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ScopeExtension.AsString method" Url="html/M_SpotifyWebApi_Model_Enum_ScopeExtension_AsString.htm" />
+  <HelpKINode Title="Scopes property" Url="html/P_SpotifyWebApi_Auth_AuthParameters_Scopes.htm" />
+  <HelpKINode Title="Search property">
+    <HelpKINode Title="ISpotifyWebApi.Search Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Search.htm" />
+    <HelpKINode Title="SpotifyWebApi.Search Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Search.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShowDialog property" Url="html/P_SpotifyWebApi_Auth_AuthParameters_ShowDialog.htm" />
+  <HelpKINode Title="SimpleAlbum class">
+    <HelpKINode Title="SimpleAlbum Class" Url="html/T_SpotifyWebApi_Model_SimpleAlbum.htm" />
+    <HelpKINode Title="about SimpleAlbum class" Url="html/T_SpotifyWebApi_Model_SimpleAlbum.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_SimpleAlbum__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_SimpleAlbum.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleAlbum.AlbumType property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_AlbumType.htm" />
+  <HelpKINode Title="SimpleAlbum.Artists property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Artists.htm" />
+  <HelpKINode Title="SimpleAlbum.AvailableMarkets property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_AvailableMarkets.htm" />
+  <HelpKINode Title="SimpleAlbum.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_ExternalUrls.htm" />
+  <HelpKINode Title="SimpleAlbum.Href property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Href.htm" />
+  <HelpKINode Title="SimpleAlbum.Id property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Id.htm" />
+  <HelpKINode Title="SimpleAlbum.Images property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Images.htm" />
+  <HelpKINode Title="SimpleAlbum.Name property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Name.htm" />
+  <HelpKINode Title="SimpleAlbum.SimpleAlbum constructor" Url="html/M_SpotifyWebApi_Model_SimpleAlbum__ctor.htm" />
+  <HelpKINode Title="SimpleAlbum.Type property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Type.htm" />
+  <HelpKINode Title="SimpleAlbum.Uri property" Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Uri.htm" />
+  <HelpKINode Title="SimpleArtist class">
+    <HelpKINode Title="SimpleArtist Class" Url="html/T_SpotifyWebApi_Model_SimpleArtist.htm" />
+    <HelpKINode Title="about SimpleArtist class" Url="html/T_SpotifyWebApi_Model_SimpleArtist.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_SimpleArtist__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_SimpleArtist.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleArtist.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_SimpleArtist_ExternalUrls.htm" />
+  <HelpKINode Title="SimpleArtist.Href property" Url="html/P_SpotifyWebApi_Model_SimpleArtist_Href.htm" />
+  <HelpKINode Title="SimpleArtist.Id property" Url="html/P_SpotifyWebApi_Model_SimpleArtist_Id.htm" />
+  <HelpKINode Title="SimpleArtist.Name property" Url="html/P_SpotifyWebApi_Model_SimpleArtist_Name.htm" />
+  <HelpKINode Title="SimpleArtist.SimpleArtist constructor" Url="html/M_SpotifyWebApi_Model_SimpleArtist__ctor.htm" />
+  <HelpKINode Title="SimpleArtist.Type property" Url="html/P_SpotifyWebApi_Model_SimpleArtist_Type.htm" />
+  <HelpKINode Title="SimpleArtist.Uri property" Url="html/P_SpotifyWebApi_Model_SimpleArtist_Uri.htm" />
+  <HelpKINode Title="SimplePlaylist class">
+    <HelpKINode Title="SimplePlaylist Class" Url="html/T_SpotifyWebApi_Model_SimplePlaylist.htm" />
+    <HelpKINode Title="about SimplePlaylist class" Url="html/T_SpotifyWebApi_Model_SimplePlaylist.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_SimplePlaylist__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_SimplePlaylist.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimplePlaylist.Collaborative property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Collaborative.htm" />
+  <HelpKINode Title="SimplePlaylist.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_ExternalUrls.htm" />
+  <HelpKINode Title="SimplePlaylist.Href property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Href.htm" />
+  <HelpKINode Title="SimplePlaylist.Id property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Id.htm" />
+  <HelpKINode Title="SimplePlaylist.Images property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Images.htm" />
+  <HelpKINode Title="SimplePlaylist.Name property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Name.htm" />
+  <HelpKINode Title="SimplePlaylist.Owner property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Owner.htm" />
+  <HelpKINode Title="SimplePlaylist.Public property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Public.htm" />
+  <HelpKINode Title="SimplePlaylist.SimplePlaylist constructor" Url="html/M_SpotifyWebApi_Model_SimplePlaylist__ctor.htm" />
+  <HelpKINode Title="SimplePlaylist.SnapshotId property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_SnapshotId.htm" />
+  <HelpKINode Title="SimplePlaylist.Tracks property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Tracks.htm" />
+  <HelpKINode Title="SimplePlaylist.Type property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Type.htm" />
+  <HelpKINode Title="SimplePlaylist.Uri property" Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Uri.htm" />
+  <HelpKINode Title="SimpleTrack class">
+    <HelpKINode Title="SimpleTrack Class" Url="html/T_SpotifyWebApi_Model_SimpleTrack.htm" />
+    <HelpKINode Title="about SimpleTrack class" Url="html/T_SpotifyWebApi_Model_SimpleTrack.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_SimpleTrack__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_SimpleTrack.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SimpleTrack.Artists property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_Artists.htm" />
+  <HelpKINode Title="SimpleTrack.AvailableMarkets property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_AvailableMarkets.htm" />
+  <HelpKINode Title="SimpleTrack.DiscNumber property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_DiscNumber.htm" />
+  <HelpKINode Title="SimpleTrack.DurationMs property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_DurationMs.htm" />
+  <HelpKINode Title="SimpleTrack.Explicit property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_Explicit.htm" />
+  <HelpKINode Title="SimpleTrack.ExternalUrls property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_ExternalUrls.htm" />
+  <HelpKINode Title="SimpleTrack.Href property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_Href.htm" />
+  <HelpKINode Title="SimpleTrack.Id property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_Id.htm" />
+  <HelpKINode Title="SimpleTrack.Name property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_Name.htm" />
+  <HelpKINode Title="SimpleTrack.PreviewUrl property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_PreviewUrl.htm" />
+  <HelpKINode Title="SimpleTrack.SimpleTrack constructor" Url="html/M_SpotifyWebApi_Model_SimpleTrack__ctor.htm" />
+  <HelpKINode Title="SimpleTrack.TrackNumber property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_TrackNumber.htm" />
+  <HelpKINode Title="SimpleTrack.Type property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_Type.htm" />
+  <HelpKINode Title="SimpleTrack.Uri property" Url="html/P_SpotifyWebApi_Model_SimpleTrack_Uri.htm" />
+  <HelpKINode Title="Single enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_AlbumType.htm" />
+  <HelpKINode Title="SnapshotId property">
+    <HelpKINode Title="FullPlaylist.SnapshotId Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_SnapshotId.htm" />
+    <HelpKINode Title="SimplePlaylist.SnapshotId Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_SnapshotId.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpotifyUri class">
+    <HelpKINode Title="SpotifyUri Class" Url="html/T_SpotifyWebApi_Model_Uri_SpotifyUri.htm" />
+    <HelpKINode Title="about SpotifyUri class" Url="html/T_SpotifyWebApi_Model_Uri_SpotifyUri.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_Uri_SpotifyUri__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_Uri_SpotifyUri.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpotifyUri.Domain property" Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_Domain.htm" />
+  <HelpKINode Title="SpotifyUri.FullUri property" Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_FullUri.htm" />
+  <HelpKINode Title="SpotifyUri.Id property" Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_Id.htm" />
+  <HelpKINode Title="SpotifyUri.SpotifyUri constructor" Url="html/M_SpotifyWebApi_Model_Uri_SpotifyUri__ctor.htm" />
+  <HelpKINode Title="SpotifyUri.Type property" Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_Type.htm" />
+  <HelpKINode Title="SpotifyUri.UserId property" Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_UserId.htm" />
+  <HelpKINode Title="SpotifyWebApi class">
+    <HelpKINode Title="SpotifyWebApi Class" Url="html/T_SpotifyWebApi_SpotifyWebApi.htm" />
+    <HelpKINode Title="about SpotifyWebApi class" Url="html/T_SpotifyWebApi_SpotifyWebApi.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_SpotifyWebApi__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_SpotifyWebApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SpotifyWebApi namespace" Url="html/N_SpotifyWebApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Album property" Url="html/P_SpotifyWebApi_SpotifyWebApi_Album.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api namespace" Url="html/N_SpotifyWebApi_Api.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Album namespace" Url="html/N_SpotifyWebApi_Api_Album.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Album.AlbumApi class" Url="html/T_SpotifyWebApi_Api_Album_AlbumApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Album.IAlbumApi interface" Url="html/T_SpotifyWebApi_Api_Album_IAlbumApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Artist namespace" Url="html/N_SpotifyWebApi_Api_Artist.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Artist.ArtistApi class" Url="html/T_SpotifyWebApi_Api_Artist_ArtistApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Artist.IArtistApi interface" Url="html/T_SpotifyWebApi_Api_Artist_IArtistApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.BaseApi class" Url="html/T_SpotifyWebApi_Api_BaseApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Browse namespace" Url="html/N_SpotifyWebApi_Api_Browse.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Browse.IBrowseApi interface" Url="html/T_SpotifyWebApi_Api_Browse_IBrowseApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Follow namespace" Url="html/N_SpotifyWebApi_Api_Follow.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Follow.IFollowApi interface" Url="html/T_SpotifyWebApi_Api_Follow_IFollowApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Personalization namespace" Url="html/N_SpotifyWebApi_Api_Personalization.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Personalization.IPersonalizationApi interface" Url="html/T_SpotifyWebApi_Api_Personalization_IPersonalizationApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Player namespace" Url="html/N_SpotifyWebApi_Api_Player.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Player.IPlayerApi interface" Url="html/T_SpotifyWebApi_Api_Player_IPlayerApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Playlist namespace" Url="html/N_SpotifyWebApi_Api_Playlist.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Playlist.IPlaylistApi interface" Url="html/T_SpotifyWebApi_Api_Playlist_IPlaylistApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Search namespace" Url="html/N_SpotifyWebApi_Api_Search.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Search.ISearchApi interface" Url="html/T_SpotifyWebApi_Api_Search_ISearchApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Track namespace" Url="html/N_SpotifyWebApi_Api_Track.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.Track.ITrackApi interface" Url="html/T_SpotifyWebApi_Api_Track_ITrackApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.UserLibrary namespace" Url="html/N_SpotifyWebApi_Api_UserLibrary.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.UserLibrary.IUserLibraryApi interface" Url="html/T_SpotifyWebApi_Api_UserLibrary_IUserLibraryApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.UserProfile namespace" Url="html/N_SpotifyWebApi_Api_UserProfile.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.UserProfile.IUserProfileApi interface" Url="html/T_SpotifyWebApi_Api_UserProfile_IUserProfileApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Api.UserProfile.UserProfileApi class" Url="html/T_SpotifyWebApi_Api_UserProfile_UserProfileApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Artist property" Url="html/P_SpotifyWebApi_SpotifyWebApi_Artist.htm" />
+  <HelpKINode Title="SpotifyWebApi.Auth namespace" Url="html/N_SpotifyWebApi_Auth.htm" />
+  <HelpKINode Title="SpotifyWebApi.Auth.AuthorizationCode namespace" Url="html/N_SpotifyWebApi_Auth_AuthorizationCode.htm" />
+  <HelpKINode Title="SpotifyWebApi.Auth.AuthorizationCode.AccessTokenRequest class" Url="html/T_SpotifyWebApi_Auth_AuthorizationCode_AccessTokenRequest.htm" />
+  <HelpKINode Title="SpotifyWebApi.Auth.AuthorizationCode.AuthorizationCode class" Url="html/T_SpotifyWebApi_Auth_AuthorizationCode_AuthorizationCode.htm" />
+  <HelpKINode Title="SpotifyWebApi.Auth.AuthParameters class" Url="html/T_SpotifyWebApi_Auth_AuthParameters.htm" />
+  <HelpKINode Title="SpotifyWebApi.Browse property" Url="html/P_SpotifyWebApi_SpotifyWebApi_Browse.htm" />
+  <HelpKINode Title="SpotifyWebApi.Business namespace" Url="html/N_SpotifyWebApi_Business.htm" />
+  <HelpKINode Title="SpotifyWebApi.Business.ApiHelper class" Url="html/T_SpotifyWebApi_Business_ApiHelper.htm" />
+  <HelpKINode Title="SpotifyWebApi.Business.Validation class" Url="html/T_SpotifyWebApi_Business_Validation.htm" />
+  <HelpKINode Title="SpotifyWebApi.Follow property" Url="html/P_SpotifyWebApi_SpotifyWebApi_Follow.htm" />
+  <HelpKINode Title="SpotifyWebApi.ISpotifyWebApi interface" Url="html/T_SpotifyWebApi_ISpotifyWebApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model namespace" Url="html/N_SpotifyWebApi_Model.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Auth namespace" Url="html/N_SpotifyWebApi_Model_Auth.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Auth.Token class" Url="html/T_SpotifyWebApi_Model_Auth_Token.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Copyright class" Url="html/T_SpotifyWebApi_Model_Copyright.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Cursor class" Url="html/T_SpotifyWebApi_Model_Cursor.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.CursorPaging(Of T) class" Url="html/T_SpotifyWebApi_Model_CursorPaging_1.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.CursorPaging&lt;T&gt; class" Url="html/T_SpotifyWebApi_Model_CursorPaging_1.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Enum namespace" Url="html/N_SpotifyWebApi_Model_Enum.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Enum.AlbumType enumeration" Url="html/T_SpotifyWebApi_Model_Enum_AlbumType.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Enum.EnumExtensions class" Url="html/T_SpotifyWebApi_Model_Enum_EnumExtensions.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Enum.Scope enumeration" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Enum.ScopeExtension class" Url="html/T_SpotifyWebApi_Model_Enum_ScopeExtension.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Error class" Url="html/T_SpotifyWebApi_Model_Error.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Followers class" Url="html/T_SpotifyWebApi_Model_Followers.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.FullAlbum class" Url="html/T_SpotifyWebApi_Model_FullAlbum.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.FullArtist class" Url="html/T_SpotifyWebApi_Model_FullArtist.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.FullPlaylist class" Url="html/T_SpotifyWebApi_Model_FullPlaylist.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.FullTrack class" Url="html/T_SpotifyWebApi_Model_FullTrack.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Image class" Url="html/T_SpotifyWebApi_Model_Image.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.LinkedFrom class" Url="html/T_SpotifyWebApi_Model_LinkedFrom.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.List namespace" Url="html/N_SpotifyWebApi_Model_List.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.List.MultipleAlbums class" Url="html/T_SpotifyWebApi_Model_List_MultipleAlbums.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.List.MultipleArtists class" Url="html/T_SpotifyWebApi_Model_List_MultipleArtists.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.List.MultiplePlaylists class" Url="html/T_SpotifyWebApi_Model_List_MultiplePlaylists.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.List.MultipleTracks class" Url="html/T_SpotifyWebApi_Model_List_MultipleTracks.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Paging(Of T) class" Url="html/T_SpotifyWebApi_Model_Paging_1.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Paging&lt;T&gt; class" Url="html/T_SpotifyWebApi_Model_Paging_1.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.PlaylistTrack class" Url="html/T_SpotifyWebApi_Model_PlaylistTrack.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.PrivateUser class" Url="html/T_SpotifyWebApi_Model_PrivateUser.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.PublicUser class" Url="html/T_SpotifyWebApi_Model_PublicUser.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.SimpleAlbum class" Url="html/T_SpotifyWebApi_Model_SimpleAlbum.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.SimpleArtist class" Url="html/T_SpotifyWebApi_Model_SimpleArtist.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.SimplePlaylist class" Url="html/T_SpotifyWebApi_Model_SimplePlaylist.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.SimpleTrack class" Url="html/T_SpotifyWebApi_Model_SimpleTrack.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Uri namespace" Url="html/N_SpotifyWebApi_Model_Uri.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Uri.SpotifyUri class" Url="html/T_SpotifyWebApi_Model_Uri_SpotifyUri.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.Uri.UriType enumeration" Url="html/T_SpotifyWebApi_Model_Uri_UriType.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.WebResponse(Of T) class" Url="html/T_SpotifyWebApi_Model_WebResponse_1.htm" />
+  <HelpKINode Title="SpotifyWebApi.Model.WebResponse&lt;T&gt; class" Url="html/T_SpotifyWebApi_Model_WebResponse_1.htm" />
+  <HelpKINode Title="SpotifyWebApi.Personalization property" Url="html/P_SpotifyWebApi_SpotifyWebApi_Personalization.htm" />
+  <HelpKINode Title="SpotifyWebApi.Player property" Url="html/P_SpotifyWebApi_SpotifyWebApi_Player.htm" />
+  <HelpKINode Title="SpotifyWebApi.Playlist property" Url="html/P_SpotifyWebApi_SpotifyWebApi_Playlist.htm" />
+  <HelpKINode Title="SpotifyWebApi.Search property" Url="html/P_SpotifyWebApi_SpotifyWebApi_Search.htm" />
+  <HelpKINode Title="SpotifyWebApi.SpotifyWebApi class" Url="html/T_SpotifyWebApi_SpotifyWebApi.htm" />
+  <HelpKINode Title="SpotifyWebApi.SpotifyWebApi constructor" Url="html/M_SpotifyWebApi_SpotifyWebApi__ctor.htm" />
+  <HelpKINode Title="SpotifyWebApi.Track property" Url="html/P_SpotifyWebApi_SpotifyWebApi_Track.htm" />
+  <HelpKINode Title="SpotifyWebApi.UserLibrary property" Url="html/P_SpotifyWebApi_SpotifyWebApi_UserLibrary.htm" />
+  <HelpKINode Title="SpotifyWebApi.UserProfile property" Url="html/P_SpotifyWebApi_SpotifyWebApi_UserProfile.htm" />
+  <HelpKINode Title="Status property" Url="html/P_SpotifyWebApi_Model_Error_Status.htm" />
+  <HelpKINode Title="StatusCode property" Url="html/P_SpotifyWebApi_Model_WebResponse_1_StatusCode.htm" />
+  <HelpKINode Title="Text property" Url="html/P_SpotifyWebApi_Model_Copyright_Text.htm" />
+  <HelpKINode Title="Token class">
+    <HelpKINode Title="Token Class" Url="html/T_SpotifyWebApi_Model_Auth_Token.htm" />
+    <HelpKINode Title="about Token class" Url="html/T_SpotifyWebApi_Model_Auth_Token.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_Auth_Token__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_Auth_Token.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Token property" Url="html/P_SpotifyWebApi_Api_BaseApi_Token.htm" />
+  <HelpKINode Title="Token.AccessToken property" Url="html/P_SpotifyWebApi_Model_Auth_Token_AccessToken.htm" />
+  <HelpKINode Title="Token.ExpiresIn property" Url="html/P_SpotifyWebApi_Model_Auth_Token_ExpiresIn.htm" />
+  <HelpKINode Title="Token.IsExpired property" Url="html/P_SpotifyWebApi_Model_Auth_Token_IsExpired.htm" />
+  <HelpKINode Title="Token.RefreshToken property" Url="html/P_SpotifyWebApi_Model_Auth_Token_RefreshToken.htm" />
+  <HelpKINode Title="Token.Scope property" Url="html/P_SpotifyWebApi_Model_Auth_Token_Scope.htm" />
+  <HelpKINode Title="Token.Token constructor" Url="html/M_SpotifyWebApi_Model_Auth_Token__ctor.htm" />
+  <HelpKINode Title="Token.TokenGenerated property" Url="html/P_SpotifyWebApi_Model_Auth_Token_TokenGenerated.htm" />
+  <HelpKINode Title="Token.Type property" Url="html/P_SpotifyWebApi_Model_Auth_Token_Type.htm" />
+  <HelpKINode Title="TokenGenerated property" Url="html/P_SpotifyWebApi_Model_Auth_Token_TokenGenerated.htm" />
+  <HelpKINode Title="Total property">
+    <HelpKINode Title="CursorPaging(T).Total Property " Url="html/P_SpotifyWebApi_Model_CursorPaging_1_Total.htm" />
+    <HelpKINode Title="Followers.Total Property " Url="html/P_SpotifyWebApi_Model_Followers_Total.htm" />
+    <HelpKINode Title="Paging(T).Total Property " Url="html/P_SpotifyWebApi_Model_Paging_1_Total.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Track enumeration member" Url="html/T_SpotifyWebApi_Model_Uri_UriType.htm" />
+  <HelpKINode Title="Track property">
+    <HelpKINode Title="ISpotifyWebApi.Track Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_Track.htm" />
+    <HelpKINode Title="PlaylistTrack.Track Property " Url="html/P_SpotifyWebApi_Model_PlaylistTrack_Track.htm" />
+    <HelpKINode Title="SpotifyWebApi.Track Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_Track.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrackList property" Url="html/P_SpotifyWebApi_Model_FullPlaylist_TrackList.htm" />
+  <HelpKINode Title="TrackNumber property">
+    <HelpKINode Title="FullTrack.TrackNumber Property " Url="html/P_SpotifyWebApi_Model_FullTrack_TrackNumber.htm" />
+    <HelpKINode Title="SimpleTrack.TrackNumber Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_TrackNumber.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tracks property">
+    <HelpKINode Title="FullAlbum.Tracks Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Tracks.htm" />
+    <HelpKINode Title="FullPlaylist.Tracks Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Tracks.htm" />
+    <HelpKINode Title="MultipleTracks.Tracks Property " Url="html/P_SpotifyWebApi_Model_List_MultipleTracks_Tracks.htm" />
+    <HelpKINode Title="SimplePlaylist.Tracks Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Tracks.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Type property">
+    <HelpKINode Title="Copyright.Type Property " Url="html/P_SpotifyWebApi_Model_Copyright_Type.htm" />
+    <HelpKINode Title="FullAlbum.Type Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Type.htm" />
+    <HelpKINode Title="FullArtist.Type Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Type.htm" />
+    <HelpKINode Title="FullPlaylist.Type Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Type.htm" />
+    <HelpKINode Title="FullTrack.Type Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Type.htm" />
+    <HelpKINode Title="LinkedFrom.Type Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_Type.htm" />
+    <HelpKINode Title="PrivateUser.Type Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Type.htm" />
+    <HelpKINode Title="PublicUser.Type Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Type.htm" />
+    <HelpKINode Title="SimpleAlbum.Type Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Type.htm" />
+    <HelpKINode Title="SimpleArtist.Type Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Type.htm" />
+    <HelpKINode Title="SimplePlaylist.Type Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Type.htm" />
+    <HelpKINode Title="SimpleTrack.Type Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Type.htm" />
+    <HelpKINode Title="SpotifyUri.Type Property " Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_Type.htm" />
+    <HelpKINode Title="Token.Type Property " Url="html/P_SpotifyWebApi_Model_Auth_Token_Type.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UgcImageUpload enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="Uri property">
+    <HelpKINode Title="FullAlbum.Uri Property " Url="html/P_SpotifyWebApi_Model_FullAlbum_Uri.htm" />
+    <HelpKINode Title="FullArtist.Uri Property " Url="html/P_SpotifyWebApi_Model_FullArtist_Uri.htm" />
+    <HelpKINode Title="FullPlaylist.Uri Property " Url="html/P_SpotifyWebApi_Model_FullPlaylist_Uri.htm" />
+    <HelpKINode Title="FullTrack.Uri Property " Url="html/P_SpotifyWebApi_Model_FullTrack_Uri.htm" />
+    <HelpKINode Title="LinkedFrom.Uri Property " Url="html/P_SpotifyWebApi_Model_LinkedFrom_Uri.htm" />
+    <HelpKINode Title="PrivateUser.Uri Property " Url="html/P_SpotifyWebApi_Model_PrivateUser_Uri.htm" />
+    <HelpKINode Title="PublicUser.Uri Property " Url="html/P_SpotifyWebApi_Model_PublicUser_Uri.htm" />
+    <HelpKINode Title="SimpleAlbum.Uri Property " Url="html/P_SpotifyWebApi_Model_SimpleAlbum_Uri.htm" />
+    <HelpKINode Title="SimpleArtist.Uri Property " Url="html/P_SpotifyWebApi_Model_SimpleArtist_Uri.htm" />
+    <HelpKINode Title="SimplePlaylist.Uri Property " Url="html/P_SpotifyWebApi_Model_SimplePlaylist_Uri.htm" />
+    <HelpKINode Title="SimpleTrack.Uri Property " Url="html/P_SpotifyWebApi_Model_SimpleTrack_Uri.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UriType enumeration" Url="html/T_SpotifyWebApi_Model_Uri_UriType.htm" />
+  <HelpKINode Title="Url property" Url="html/P_SpotifyWebApi_Model_Image_Url.htm" />
+  <HelpKINode Title="User enumeration member" Url="html/T_SpotifyWebApi_Model_Uri_UriType.htm" />
+  <HelpKINode Title="UserFollowModify enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserFollowRead enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserId property" Url="html/P_SpotifyWebApi_Model_Uri_SpotifyUri_UserId.htm" />
+  <HelpKINode Title="UserLibrary property">
+    <HelpKINode Title="ISpotifyWebApi.UserLibrary Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_UserLibrary.htm" />
+    <HelpKINode Title="SpotifyWebApi.UserLibrary Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_UserLibrary.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserLibraryModify enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserLibraryRead enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserModifyPlaybackState enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserProfile property">
+    <HelpKINode Title="ISpotifyWebApi.UserProfile Property " Url="html/P_SpotifyWebApi_ISpotifyWebApi_UserProfile.htm" />
+    <HelpKINode Title="SpotifyWebApi.UserProfile Property " Url="html/P_SpotifyWebApi_SpotifyWebApi_UserProfile.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserProfileApi class">
+    <HelpKINode Title="UserProfileApi Class" Url="html/T_SpotifyWebApi_Api_UserProfile_UserProfileApi.htm" />
+    <HelpKINode Title="about UserProfileApi class" Url="html/T_SpotifyWebApi_Api_UserProfile_UserProfileApi.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Api_UserProfile_UserProfileApi__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Api_UserProfile_UserProfileApi.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Api_UserProfile_UserProfileApi.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserProfileApi.GetMe method" Url="html/M_SpotifyWebApi_Api_UserProfile_UserProfileApi_GetMe.htm" />
+  <HelpKINode Title="UserProfileApi.GetUser method" Url="html/M_SpotifyWebApi_Api_UserProfile_UserProfileApi_GetUser.htm" />
+  <HelpKINode Title="UserProfileApi.UserProfileApi constructor" Url="html/M_SpotifyWebApi_Api_UserProfile_UserProfileApi__ctor.htm" />
+  <HelpKINode Title="UserReadBirthdate enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserReadCurrentlyPlaying enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserReadEmail enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserReadPlaybackState enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserReadPrivate enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserReadRecentlyPlayed enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="UserTopRead enumeration member" Url="html/T_SpotifyWebApi_Model_Enum_Scope.htm" />
+  <HelpKINode Title="ValidateInteger method" Url="html/M_SpotifyWebApi_Business_Validation_ValidateInteger.htm" />
+  <HelpKINode Title="ValidateList(Of T) method" Url="html/M_SpotifyWebApi_Business_Validation_ValidateList__1.htm" />
+  <HelpKINode Title="ValidateList&lt;T&gt; method" Url="html/M_SpotifyWebApi_Business_Validation_ValidateList__1.htm" />
+  <HelpKINode Title="Validation class">
+    <HelpKINode Title="Validation Class" Url="html/T_SpotifyWebApi_Business_Validation.htm" />
+    <HelpKINode Title="about Validation class" Url="html/T_SpotifyWebApi_Business_Validation.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_SpotifyWebApi_Business_Validation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Validation.ValidateInteger method" Url="html/M_SpotifyWebApi_Business_Validation_ValidateInteger.htm" />
+  <HelpKINode Title="Validation.ValidateList(Of T) method" Url="html/M_SpotifyWebApi_Business_Validation_ValidateList__1.htm" />
+  <HelpKINode Title="Validation.ValidateList&lt;T&gt; method" Url="html/M_SpotifyWebApi_Business_Validation_ValidateList__1.htm" />
+  <HelpKINode Title="WebResponse(Of T) class">
+    <HelpKINode Title="WebResponse(T) Class" Url="html/T_SpotifyWebApi_Model_WebResponse_1.htm" />
+    <HelpKINode Title="about WebResponse(Of T) class" Url="html/T_SpotifyWebApi_Model_WebResponse_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_WebResponse_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_WebResponse_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebResponse(Of T).Response property" Url="html/P_SpotifyWebApi_Model_WebResponse_1_Response.htm" />
+  <HelpKINode Title="WebResponse(Of T).StatusCode property" Url="html/P_SpotifyWebApi_Model_WebResponse_1_StatusCode.htm" />
+  <HelpKINode Title="WebResponse(Of T).WebResponse constructor" Url="html/M_SpotifyWebApi_Model_WebResponse_1__ctor.htm" />
+  <HelpKINode Title="WebResponse&lt;T&gt; class">
+    <HelpKINode Title="WebResponse(T) Class" Url="html/T_SpotifyWebApi_Model_WebResponse_1.htm" />
+    <HelpKINode Title="about WebResponse&lt;T&gt; class" Url="html/T_SpotifyWebApi_Model_WebResponse_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_SpotifyWebApi_Model_WebResponse_1__ctor.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_SpotifyWebApi_Model_WebResponse_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebResponse&lt;T&gt;.Response property" Url="html/P_SpotifyWebApi_Model_WebResponse_1_Response.htm" />
+  <HelpKINode Title="WebResponse&lt;T&gt;.StatusCode property" Url="html/P_SpotifyWebApi_Model_WebResponse_1_StatusCode.htm" />
+  <HelpKINode Title="WebResponse&lt;T&gt;.WebResponse constructor" Url="html/M_SpotifyWebApi_Model_WebResponse_1__ctor.htm" />
+  <HelpKINode Title="Width property" Url="html/P_SpotifyWebApi_Model_Image_Width.htm" />
+</HelpKI>
