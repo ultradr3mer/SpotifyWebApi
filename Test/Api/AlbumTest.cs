@@ -14,21 +14,6 @@ namespace SpotifyWebApiTest.Api
     public class AlbumTest : TestBase
     {
         /// <summary>
-        /// Initializes this instance.
-        /// </summary>
-        [TestInitialize]
-        public void Init()
-        {
-            this.Token = new Token
-            {
-                AccessToken = string.Empty,
-                Type = "Bearer"
-            };
-
-            this.Api = new SpotifyWebApi(this.Token);
-        }
-
-        /// <summary>
         /// The album test.
         /// </summary>
         [TestMethod]
