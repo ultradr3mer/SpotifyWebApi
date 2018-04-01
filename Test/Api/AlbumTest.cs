@@ -26,6 +26,9 @@ namespace SpotifyWebApiTest.Api
             Assert.AreEqual("She's So Unusual", album.Name);
             Assert.AreEqual(13, album.Tracks.Total);
             Assert.AreEqual("Cyndi Lauper", album.Artists.First().Name);
+            Assert.AreEqual("2joHDtKFVDDyWDHnOxZMAX", album.Tracks.Items[1].Id);
+            Assert.AreEqual("6ClztHzretmPHCeiNqR5wD", album.Tracks.Items[2].Id);
+            Assert.AreEqual("2tVHvZK4YYzTloSCBPm2tg", album.Tracks.Items[3].Id);
         }
 
         /// <summary>

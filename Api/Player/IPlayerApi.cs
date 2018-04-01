@@ -6,6 +6,8 @@
     using Model.Enum;
     using Model.Uri;
 
+    using SpotifyWebApi.Model.Offset;
+
     /// <summary>
     /// The player api.
     /// </summary>
@@ -45,13 +47,13 @@
 
         /// <summary>
         /// Start a new context or resume current playback on the user’s active device.
-        /// TODO: Add offset parameter.
         /// </summary>
         /// <param name="device">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <param name="contextUri">Optional. Spotify URI of the context to play. Valid contexts are albums, artists &amp; playlists.</param>
         /// <param name="uris">Optional. A list of the Spotify track URIs to play.</param>
+        /// <param name="offset">Indicates from where in the context playback should start. Only available when context_uri corresponds to an album or playlist object, or when the uris parameter is used.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task StartPlayback(Device device = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null);
+        Task StartPlayback(Device device = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null);
 
         /// <summary>
         /// Pause playback on the user’s account.
