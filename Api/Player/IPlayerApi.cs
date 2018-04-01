@@ -18,7 +18,7 @@
         /// Get information about a user’s available devices.
         /// </summary>
         /// <returns>A list of available devices.</returns>
-        Task<List<Device>> GetAvailableDevices();
+        Task<DevicesContainer> GetAvailableDevices();
 
         /// <summary>
         /// Get information about the user’s current playback state, including track, track progress, and active device.
@@ -43,7 +43,7 @@
         /// <c>True</c>: ensure playback happens on new device.
         /// <c>False</c> or not provided: keep the current playback state.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task TransferPlayback(List<Device> devices, bool? play = null);
+        Task<WebResponse> TransferPlayback(List<Device> devices, bool? play = null);
 
         /// <summary>
         /// Start a new context or resume current playback on the user’s active device.
@@ -53,7 +53,7 @@
         /// <param name="uris">Optional. A list of the Spotify track URIs to play.</param>
         /// <param name="offset">Indicates from where in the context playback should start. Only available when context_uri corresponds to an album or playlist object, or when the uris parameter is used.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task StartPlayback(Device device = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null);
+        Task<WebResponse> StartPlayback(Device device = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null);
 
         /// <summary>
         /// Pause playback on the user’s account.

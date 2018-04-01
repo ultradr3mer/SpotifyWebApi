@@ -1,6 +1,7 @@
 ﻿namespace SpotifyWebApiTest.Api
 {
   using System.Collections.Generic;
+  using System.Linq;
 
   using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -83,6 +84,39 @@
           {
             Uri = SpotifyUri.Make("2joHDtKFVDDyWDHnOxZMAX", UriType.Track).FullUri
           }).Wait();
+    }
+
+
+    /// <summary>
+    /// The album test.
+    /// </summary>
+    [TestMethod]
+    public void TransferPlaybackToFirstDevice()
+    {
+      var devices = this.Api.Player.GetAvailableDevices().Result;
+
+      this.Api.Player.TransferPlayback(
+        new List<Device>
+          {
+            devices.Devices[0]
+          },
+        true).Wait();
+    }
+
+    /// <summary>
+    /// The album test.
+    /// </summary>
+    [TestMethod]
+    public void TransferPlaybackToSecondDevice()
+    {
+      var devices = this.Api.Player.GetAvailableDevices().Result;
+
+      this.Api.Player.TransferPlayback(
+        new List<Device>
+          {
+            devices.Devices[1]
+          },
+        true).Wait();
     }
 
     #endregion

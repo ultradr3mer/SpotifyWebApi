@@ -33,16 +33,16 @@ namespace SpotifyWebApi.Api.Player
     #region Methods
 
     /// <inheritdoc />
-    public async Task<List<Device>> GetAvailableDevices()
+    public async Task<DevicesContainer> GetAvailableDevices()
     {
-      var r = await ApiClient.GetAsync<List<Device>>(BaseApi.MakeUri("me/player/devices"), this.Token);
+      var r = await ApiClient.GetAsync<DevicesContainer>(BaseApi.MakeUri("me/player/devices"), this.Token);
 
-      if (r.Response is List<Device> res)
+      if (r.Response is DevicesContainer res)
       {
         return res;
       }
 
-      return new List<Device>();
+      return new DevicesContainer();
     }
 
     /// <inheritdoc />
@@ -118,23 +118,30 @@ namespace SpotifyWebApi.Api.Player
     }
 
     /// <inheritdoc />
-    public Task StartPlayback(Device device = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null)
+    public Task<WebResponse> StartPlayback(Device device = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null)
     {
       return ApiClient.PutAsync<FullPlaylist>(
         BaseApi.MakeUri($"me/player/play{BaseApi.AddDeviceId("?", device?.Id)}"),
         new
-          {
-            context_uri = contextUri?.FullUri,
-            uris = uris?.Select(o => o.FullUri),
-            offset = offset
+        {
+          context_uri = contextUri?.FullUri,
+          uris = uris?.Select(o => o.FullUri),
+          offset
         },
         this.Token);
     }
 
     /// <inheritdoc />
-    public Task TransferPlayback(List<Device> devices, bool? play = null)
+    public Task<WebResponse> TransferPlayback(List<Device> devices, bool? play = null)
     {
-      throw new NotImplementedException();
+      return ApiClient.PutAsync<FullPlaylist>(
+        BaseApi.MakeUri($"me/player"),
+        new
+        {
+          device_ids = devices?.Select(o => o.Id),
+          play
+        },
+        this.Token);
     }
 
     #endregion
