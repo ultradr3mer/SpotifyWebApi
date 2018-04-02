@@ -34,7 +34,7 @@
     }
 
     /// <summary>
-    /// The album test.
+    /// The start playback test, with uri offset.
     /// </summary>
     [TestMethod]
     public void StartPlaybackTestUriOffset()
@@ -50,7 +50,7 @@
     }
 
     /// <summary>
-    /// The album test.
+    /// The start playback test, with positional offset.
     /// </summary>
     [TestMethod]
     public void StartPlaybackTestPositionOffset()
@@ -66,7 +66,7 @@
     }
 
     /// <summary>
-    /// The album test.
+    /// The start playback test, with uris.
     /// </summary>
     [TestMethod]
     public void StartPlaybackTestWithUris()
@@ -88,7 +88,7 @@
 
 
     /// <summary>
-    /// The album test.
+    /// The transfer playback to first device test.
     /// </summary>
     [TestMethod]
     public void TransferPlaybackToFirstDevice()
@@ -104,7 +104,7 @@
     }
 
     /// <summary>
-    /// The album test.
+    /// The transfer playback to secondary device test.
     /// </summary>
     [TestMethod]
     public void TransferPlaybackToSecondDevice()
@@ -117,6 +117,15 @@
             devices.Devices[1].Id
           },
         true).Wait();
+    }
+
+    /// <summary>
+    /// The Get currently playing test.
+    /// </summary>
+    [TestMethod]
+    public void GetCurrentlyPlaying()
+    {
+      var playing = this.Api.Player.GetCurrentlyPlaying().Result;
     }
 
     #endregion
