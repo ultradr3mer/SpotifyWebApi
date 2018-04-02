@@ -96,9 +96,9 @@
       var devices = this.Api.Player.GetAvailableDevices().Result;
 
       this.Api.Player.TransferPlayback(
-        new List<Device>
+        new List<string>
           {
-            devices.Devices[0]
+            devices.Devices[0].Id
           },
         true).Wait();
     }
@@ -112,9 +112,9 @@
       var devices = this.Api.Player.GetAvailableDevices().Result;
 
       this.Api.Player.TransferPlayback(
-        new List<Device>
+        new List<string>
           {
-            devices.Devices[1]
+            devices.Devices[1].Id
           },
         true).Wait();
     }

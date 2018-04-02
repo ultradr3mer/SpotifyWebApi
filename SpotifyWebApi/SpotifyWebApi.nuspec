@@ -3,16 +3,16 @@
   <metadata>
     <version>0.1.0-beta-test</version>
 
-    <id>SpotifyWebApi-Core</id>
+    <id>SpotifyWebApi-Core-Private</id>
     <title>Spotify Web API</title>
 
-    <authors>Pim Merks</authors>
-    <owners>Pim Merks</owners>
+    <authors>Pim Merks, Clara Schulz-Theißen</authors>
+    <owners>Pim Merks, Clara Schulz-Theißen</owners>
     <description>A Spotify Web API wrapper.</description>
     <copyright>Copyright 2018</copyright>
 
     <iconUrl>https://raw.githubusercontent.com/pimmerks/SpotifyWebApi/master/SpotifyIcon.png</iconUrl>
-    <projectUrl>https://github.com/pimmerks/SpotifyWebApi</projectUrl>
+    <projectUrl>https://github.com/ultradr3mer/SpotifyWebApi</projectUrl>
     <licenseUrl>https://github.com/pimmerks/SpotifyWebApi/blob/master/LICENSE</licenseUrl>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

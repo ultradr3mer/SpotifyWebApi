@@ -37,77 +37,77 @@
         /// <summary>
         /// Transfer playback to a new device and determine if it should start playing.
         /// </summary>
-        /// <param name="devices">Required. A list containing the devices on which playback should be started/transferred.
-        /// NOTE: Although an list is accepted, only a single <see cref="Device"/> is currently supported.</param>
+        /// <param name="devicesIds">Required. A list containing the device ids on which playback should be started/transferred.
+        /// NOTE: Although an list is accepted, only a single <see cref="devicesIds"/> is currently supported.</param>
         /// <param name="play">Optional.
         /// <c>True</c>: ensure playback happens on new device.
         /// <c>False</c> or not provided: keep the current playback state.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task<WebResponse> TransferPlayback(List<Device> devices, bool? play = null);
+        Task<WebResponse> TransferPlayback(List<string> devicesIds, bool? play = null);
 
         /// <summary>
         /// Start a new context or resume current playback on the user’s active device.
         /// </summary>
-        /// <param name="device">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
+        /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <param name="contextUri">Optional. Spotify URI of the context to play. Valid contexts are albums, artists &amp; playlists.</param>
         /// <param name="uris">Optional. A list of the Spotify track URIs to play.</param>
         /// <param name="offset">Indicates from where in the context playback should start. Only available when context_uri corresponds to an album or playlist object, or when the uris parameter is used.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task<WebResponse> StartPlayback(Device device = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null);
+        Task<WebResponse> StartPlayback(string deviceId = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null);
 
         /// <summary>
         /// Pause playback on the user’s account.
         /// </summary>
-        /// <param name="device">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
+        /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task PausePlayback(Device device = null);
+        Task PausePlayback(string deviceId = null);
 
         /// <summary>
         /// Skips to next track in the user’s queue.
         /// </summary>
-        /// <param name="device">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
+        /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task Next(Device device = null);
+        Task Next(string deviceId = null);
 
         /// <summary>
         /// Skips to previous track in the user’s queue.
         /// Note that this will ALWAYS skip to the previous track, regardless of the current track’s progress.
         /// Returning to the start of the current track should be performed using the <see cref="Seek"/> function.
         /// </summary>
-        /// <param name="device">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
+        /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task Previous(Device device = null);
+        Task Previous(string deviceId = null);
 
         /// <summary>
         /// Seeks to the given position in the user’s currently playing track.
         /// </summary>
         /// <param name="positionMs">The position in milliseconds to seek to. Must be a positive number. Passing in a position that is greater than the length of the track will cause the player to start playing the next song.</param>
-        /// <param name="device">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
+        /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task Seek(int positionMs, Device device = null);
+        Task Seek(int positionMs, string deviceId = null);
 
         /// <summary>
         /// Set the repeat mode for the user’s playback. Options are repeat-track, repeat-context, and off.
         /// </summary>
         /// <param name="state">The state of repeat.</param>
-        /// <param name="device">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
+        /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task SetRepeat(RepeatState state, Device device = null);
+        Task SetRepeat(RepeatState state, string deviceId = null);
 
         /// <summary>
         /// Set the volume for the user’s current playback device.
         /// </summary>
         /// <param name="volumePercent">The volume to set. Must be a value from 0 to 100 inclusive.</param>
-        /// <param name="device">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
+        /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task SetVolume(int volumePercent, Device device = null);
+        Task SetVolume(int volumePercent, string deviceId = null);
 
-        /// <summary>
-        /// Toggle shuffle on or off for user’s playback.
-        /// </summary>
-        /// <param name="state"><c>True</c>: Shuffle user's playback. <c>False</c>: Do not shuffle user's playback</param>
-        /// <param name="device">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
-        /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task SetShuffle(bool state, Device device = null);
+    /// <summary>
+    /// Toggle shuffle on or off for user’s playback.
+    /// </summary>
+    /// <param name="state"><c>True</c>: Shuffle user's playback. <c>False</c>: Do not shuffle user's playback</param>
+    /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
+    /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
+    Task SetShuffle(bool state, string deviceId = null);
     }
 }

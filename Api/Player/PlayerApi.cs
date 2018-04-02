@@ -76,52 +76,52 @@ namespace SpotifyWebApi.Api.Player
     }
 
     /// <inheritdoc />
-    public Task Next(Device device = null)
+    public Task Next(string deviceId = null)
     {
       throw new NotImplementedException();
     }
 
     /// <inheritdoc />
-    public Task PausePlayback(Device device = null)
+    public Task PausePlayback(string deviceId = null)
     {
       throw new NotImplementedException();
     }
 
     /// <inheritdoc />
-    public Task Previous(Device device = null)
+    public Task Previous(string deviceId = null)
     {
       throw new NotImplementedException();
     }
 
     /// <inheritdoc />
-    public Task Seek(int positionMs, Device device = null)
+    public Task Seek(int positionMs, string deviceId = null)
     {
       throw new NotImplementedException();
     }
 
     /// <inheritdoc />
-    public Task SetRepeat(RepeatState state, Device device = null)
+    public Task SetRepeat(RepeatState state, string deviceId = null)
     {
       throw new NotImplementedException();
     }
 
     /// <inheritdoc />
-    public Task SetShuffle(bool state, Device device = null)
+    public Task SetShuffle(bool state, string deviceId = null)
     {
       throw new NotImplementedException();
     }
 
     /// <inheritdoc />
-    public Task SetVolume(int volumePercent, Device device = null)
+    public Task SetVolume(int volumePercent, string deviceId = null)
     {
       throw new NotImplementedException();
     }
 
     /// <inheritdoc />
-    public Task<WebResponse> StartPlayback(Device device = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null)
+    public Task<WebResponse> StartPlayback(string deviceId = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null)
     {
       return ApiClient.PutAsync<FullPlaylist>(
-        BaseApi.MakeUri($"me/player/play{BaseApi.AddDeviceId("?", device?.Id)}"),
+        BaseApi.MakeUri($"me/player/play{BaseApi.AddDeviceId("?", deviceId)}"),
         new
         {
           context_uri = contextUri?.FullUri,
@@ -132,13 +132,13 @@ namespace SpotifyWebApi.Api.Player
     }
 
     /// <inheritdoc />
-    public Task<WebResponse> TransferPlayback(List<Device> devices, bool? play = null)
+    public Task<WebResponse> TransferPlayback(List<string> deviceId, bool? play = null)
     {
       return ApiClient.PutAsync<FullPlaylist>(
         BaseApi.MakeUri($"me/player"),
         new
         {
-          device_ids = devices?.Select(o => o.Id),
+          device_ids = deviceId,
           play
         },
         this.Token);

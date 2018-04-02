@@ -16,20 +16,20 @@
     <AssemblyName>SpotifyWebApi</AssemblyName>
     <RootNamespace>SpotifyWebApi</RootNamespace>
 
-    <Authors>Pim Merks</Authors>
-    <Company>Pim Merks</Company>
-    <PackageId>SpotifyWebApi-Core</PackageId>
+    <Authors>Pim Merks, Clara Schulz-Theißen</Authors>
+    <Company>Pim Merks, Clara Schulz-Theißen</Company>
+    <PackageId>SpotifyWebApi-Core-Private</PackageId>
     <Description>A Spotify Web API wrapper.</Description>
     <Copyright>Pim Merks</Copyright>
     <RepositoryType>Github</RepositoryType>
     <RepositoryUrl>https://github.com/pimmerks/SpotifyWebApi</RepositoryUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/pimmerks/SpotifyWebApi/master/SpotifyIcon.png</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/pimmerks/SpotifyWebApi</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ultradr3mer/SpotifyWebApi</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/pimmerks/SpotifyWebApi/blob/master/LICENSE</PackageLicenseUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>Spotify SpotifyWebApi Web Api REST Spotify WebApi Net Core Standard Framework</PackageTags>
 
-    <Version>0.0.1-pre</Version>
+    <Version>0.1.0-pre</Version>
   </PropertyGroup>
 
   <ItemGroup>
