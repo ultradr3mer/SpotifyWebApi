@@ -6,6 +6,7 @@
   using Microsoft.VisualStudio.TestTools.UnitTesting;
 
   using SpotifyWebApi.Model;
+  using SpotifyWebApi.Model.Enum;
   using SpotifyWebApi.Model.Offset;
   using SpotifyWebApi.Model.Uri;
 
@@ -47,6 +48,117 @@
           {
             Uri = SpotifyUri.Make("2joHDtKFVDDyWDHnOxZMAX", UriType.Track).FullUri
           }).Wait();
+    }
+
+    /// <summary>
+    /// Start the pause playback test.
+    /// </summary>
+    [TestMethod]
+    public void PausePlayback()
+    {
+      this.Api.Player.PausePlayback().Wait();
+    }
+
+    /// <summary>
+    /// Start the resume playback test.
+    /// </summary>
+    [TestMethod]
+    public void ResumePlayback()
+    {
+      this.Api.Player.StartPlayback().Wait();
+    }
+
+    /// <summary>
+    /// Start the next track test.
+    /// </summary>
+    [TestMethod]
+    public void NextTrack()
+    {
+      this.Api.Player.Next().Wait();
+    }
+
+
+    /// <summary>
+    /// Start the next previous test.
+    /// </summary>
+    [TestMethod]
+    public void PreviousTrack()
+    {
+      this.Api.Player.Previous().Wait();
+    }
+
+
+    /// <summary>
+    /// Start the seek test.
+    /// </summary>
+    [TestMethod]
+    public void Seek()
+    {
+      this.Api.Player.Seek(60000).Wait();
+    }
+
+    /// <summary>
+    /// Starts the set repeat to off test.
+    /// </summary>
+    [TestMethod]
+    public void SetRepeatToOff()
+    {
+      this.Api.Player.SetRepeat(RepeatState.Off).Wait();
+    }
+
+    /// <summary>
+    /// Starts the set repeat to context test.
+    /// </summary>
+    [TestMethod]
+    public void SetRepeatToContext()
+    {
+      this.Api.Player.SetRepeat(RepeatState.Context).Wait();
+    }
+
+
+    /// <summary>
+    /// Starts the set repeat to track test.
+    /// </summary>
+    [TestMethod]
+    public void SetRepeatToTrack()
+    {
+      this.Api.Player.SetRepeat(RepeatState.Track).Wait();
+    }
+
+    /// <summary>
+    /// Starts the turn shuffle off test.
+    /// </summary>
+    [TestMethod]
+    public void TurnShuffleOff()
+    {
+      this.Api.Player.SetShuffle(false).Wait();
+    }
+
+    /// <summary>
+    /// Starts the turn shuffle on test.
+    /// </summary>
+    [TestMethod]
+    public void TurnShuffleOn()
+    {
+      this.Api.Player.SetShuffle(true).Wait();
+    }
+
+    /// <summary>
+    /// Starts the set volume to 50 percent test.
+    /// </summary>
+    [TestMethod]
+    public void SetVolumeTo50Percent()
+    {
+      this.Api.Player.SetVolume(50).Wait();
+    }
+
+    /// <summary>
+    /// Starts the set volume to 100 percent test.
+    /// </summary>
+    [TestMethod]
+    public void SetVolumeTo100Percent()
+    {
+      this.Api.Player.SetVolume(100).Wait();
     }
 
     /// <summary>

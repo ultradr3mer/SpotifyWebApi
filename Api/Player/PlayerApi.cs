@@ -76,51 +76,72 @@ namespace SpotifyWebApi.Api.Player
     }
 
     /// <inheritdoc />
-    public Task Next(string deviceId = null)
+    public Task<WebResponse> Next(string deviceId = null)
     {
-      throw new NotImplementedException();
+      return ApiClient.PostAsync<object>(
+        BaseApi.MakeUri($"me/player/next{BaseApi.AddDeviceId("?", deviceId)}"),
+        null,
+        this.Token);
     }
 
     /// <inheritdoc />
-    public Task PausePlayback(string deviceId = null)
+    public Task<WebResponse> PausePlayback(string deviceId = null)
     {
-      throw new NotImplementedException();
+      return ApiClient.PutAsync<object>(
+        BaseApi.MakeUri($"me/player/pause{BaseApi.AddDeviceId("?", deviceId)}"),
+        null,
+        this.Token);
     }
 
     /// <inheritdoc />
-    public Task Previous(string deviceId = null)
+    public Task<WebResponse> Previous(string deviceId = null)
     {
-      throw new NotImplementedException();
+      return ApiClient.PostAsync<object>(
+        BaseApi.MakeUri($"me/player/previous{BaseApi.AddDeviceId("?", deviceId)}"),
+        null,
+        this.Token);
     }
 
     /// <inheritdoc />
-    public Task Seek(int positionMs, string deviceId = null)
+    public Task<WebResponse> Seek(int positionMs, string deviceId = null)
     {
-      throw new NotImplementedException();
+      return ApiClient.PutAsync<object>(
+        BaseApi.MakeUri($"me/player/seek?position_ms={positionMs}{BaseApi.AddDeviceId("&", deviceId)}"),
+        null,
+        this.Token);
     }
 
     /// <inheritdoc />
-    public Task SetRepeat(RepeatState state, string deviceId = null)
+    public Task<WebResponse> SetRepeat(RepeatState state, string deviceId = null)
     {
-      throw new NotImplementedException();
+      return ApiClient.PutAsync<object>(
+        BaseApi.MakeUri($"me/player/repeat?state={state.ToString().ToLower()}{BaseApi.AddDeviceId("&", deviceId)}"),
+        null,
+        this.Token);
     }
 
     /// <inheritdoc />
-    public Task SetShuffle(bool state, string deviceId = null)
+    public Task<WebResponse> SetShuffle(bool state, string deviceId = null)
     {
-      throw new NotImplementedException();
+      return ApiClient.PutAsync<object>(
+        BaseApi.MakeUri($"me/player/shuffle?state={state.ToString().ToLower()}{BaseApi.AddDeviceId("&", deviceId)}"),
+        null,
+        this.Token);
     }
 
     /// <inheritdoc />
-    public Task SetVolume(int volumePercent, string deviceId = null)
+    public Task<WebResponse> SetVolume(int volumePercent, string deviceId = null)
     {
-      throw new NotImplementedException();
+      return ApiClient.PutAsync<object>(
+        BaseApi.MakeUri($"me/player/volume?volume_percent={volumePercent}{BaseApi.AddDeviceId("&", deviceId)}"),
+        null,
+        this.Token);
     }
 
     /// <inheritdoc />
     public Task<WebResponse> StartPlayback(string deviceId = null, SpotifyUri contextUri = null, List<SpotifyUri> uris = null, IPlaybackOffset offset = null)
     {
-      return ApiClient.PutAsync<FullPlaylist>(
+      return ApiClient.PutAsync<object>(
         BaseApi.MakeUri($"me/player/play{BaseApi.AddDeviceId("?", deviceId)}"),
         new
         {
@@ -134,7 +155,7 @@ namespace SpotifyWebApi.Api.Player
     /// <inheritdoc />
     public Task<WebResponse> TransferPlayback(List<string> deviceId, bool? play = null)
     {
-      return ApiClient.PutAsync<FullPlaylist>(
+      return ApiClient.PutAsync<object>(
         BaseApi.MakeUri($"me/player"),
         new
         {

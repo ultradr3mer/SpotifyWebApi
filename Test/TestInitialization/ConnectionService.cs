@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using SpotifyWebApi;
 using SpotifyWebApi.Auth;
-using SpotifyWebApi.Auth.AuthorizationCode;
 using SpotifyWebApi.Model.Auth;
 using SpotifyWebApi.Model.Enum;
 
@@ -64,12 +63,12 @@ namespace SpotifyWebApiTest.TestInitialization
 
       public async Task<Data> GetResponse()
       {
-        var webserver = new TcpListener(IPAddress.Any, 8000);
-        webserver.Start();
+        var webServer = new TcpListener(IPAddress.Any, 8000);
+        webServer.Start();
 
         ConnectionService.OpenBrowser(this.ConnectUrl);
 
-        var s = await webserver.AcceptSocketAsync();
+        var s = await webServer.AcceptSocketAsync();
 
         var bReceive = new byte[2048];
         var i = s.Receive(bReceive, bReceive.Length, 0);
@@ -78,7 +77,7 @@ namespace SpotifyWebApiTest.TestInitialization
         var sBuffer = Encoding.ASCII.GetString(bReceive);
 
         s.Shutdown(SocketShutdown.Both);
-        webserver.Stop();
+        webServer.Stop();
 
         var t = sBuffer.Split('?')[1].Split('&')[0].Split('=')[1];
 

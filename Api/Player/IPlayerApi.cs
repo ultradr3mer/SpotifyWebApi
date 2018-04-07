@@ -60,14 +60,14 @@
         /// </summary>
         /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task PausePlayback(string deviceId = null);
+        Task<WebResponse> PausePlayback(string deviceId = null);
 
         /// <summary>
         /// Skips to next track in the user’s queue.
         /// </summary>
         /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task Next(string deviceId = null);
+        Task<WebResponse> Next(string deviceId = null);
 
         /// <summary>
         /// Skips to previous track in the user’s queue.
@@ -76,7 +76,7 @@
         /// </summary>
         /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task Previous(string deviceId = null);
+        Task<WebResponse> Previous(string deviceId = null);
 
         /// <summary>
         /// Seeks to the given position in the user’s currently playing track.
@@ -84,7 +84,7 @@
         /// <param name="positionMs">The position in milliseconds to seek to. Must be a positive number. Passing in a position that is greater than the length of the track will cause the player to start playing the next song.</param>
         /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task Seek(int positionMs, string deviceId = null);
+        Task<WebResponse> Seek(int positionMs, string deviceId = null);
 
         /// <summary>
         /// Set the repeat mode for the user’s playback. Options are repeat-track, repeat-context, and off.
@@ -92,7 +92,7 @@
         /// <param name="state">The state of repeat.</param>
         /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task SetRepeat(RepeatState state, string deviceId = null);
+        Task<WebResponse> SetRepeat(RepeatState state, string deviceId = null);
 
         /// <summary>
         /// Set the volume for the user’s current playback device.
@@ -100,14 +100,14 @@
         /// <param name="volumePercent">The volume to set. Must be a value from 0 to 100 inclusive.</param>
         /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
         /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-        Task SetVolume(int volumePercent, string deviceId = null);
+        Task<WebResponse> SetVolume(int volumePercent, string deviceId = null);
 
-    /// <summary>
-    /// Toggle shuffle on or off for user’s playback.
-    /// </summary>
-    /// <param name="state"><c>True</c>: Shuffle user's playback. <c>False</c>: Do not shuffle user's playback</param>
-    /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
-    /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
-    Task SetShuffle(bool state, string deviceId = null);
+        /// <summary>
+        /// Toggle shuffle on or off for user’s playback.
+        /// </summary>
+        /// <param name="state"><c>True</c>: Shuffle user's playback. <c>False</c>: Do not shuffle user's playback</param>
+        /// <param name="deviceId">Optional. The device this command is targeting. If not supplied, the user's currently active device is the target.</param>
+        /// <returns>A <see cref="Task"/> representing the asynchronous operation.</returns>
+        Task<WebResponse> SetShuffle(bool state, string deviceId = null);
     }
 }
