@@ -76,27 +76,32 @@
         /// <summary>
         /// Read access to a user's top artists and tracks.
         /// </summary>
-        UserTopRead = 4098,
+        UserTopRead = 4096,
 
         /// <summary>
         /// Read access to a user's playback state.
         /// </summary>
-        UserReadPlaybackState = 8196,
+        UserReadPlaybackState = 8192,
 
         /// <summary>
         /// Control playback on Spotify clients and Spotify Connect devices.
         /// </summary>
-        UserModifyPlaybackState = 16392,
+        UserModifyPlaybackState = 16384,
 
         /// <summary>
         /// Read access to a user's currently playing track
         /// </summary>
-        UserReadCurrentlyPlaying = 32784,
+        UserReadCurrentlyPlaying = 32768,
 
         /// <summary>
         /// Read access to a user's recently played items.
         /// </summary>
-        UserReadRecentlyPlayed = 65568,
+        UserReadRecentlyPlayed = 65536,
+
+        /// <summary>
+        /// Play music and control playback on your other devices.
+        /// </summary>
+        Streaming = 131072,
 
         /// <summary>
         /// Request access to all scopes.
