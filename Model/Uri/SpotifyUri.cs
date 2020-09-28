@@ -52,8 +52,7 @@
                         this.Id = split[2];
                         break;
                     case UriType.Playlist:
-                        this.UserId = split[2];
-                        this.Id = split[4];
+                        this.Id = split[2];
                         break;
                     default:
                         throw new Exception("Uri was not correct!");
@@ -76,12 +75,6 @@
         /// </summary>
         [DataMember]
         public UriType Type { get; private set; }
-
-        /// <summary>
-        /// Gets the user identifier.
-        /// </summary>
-        [DataMember]
-        public string UserId { get; private set; }
 
         /// <summary>
         /// Gets the identifier.
@@ -162,7 +155,6 @@
             this.FullUri = i.FullUri;
             this.Id = i.Id;
             this.Type = i.Type;
-            this.UserId = i.UserId;
         }
     }
 }

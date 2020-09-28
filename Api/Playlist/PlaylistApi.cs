@@ -54,7 +54,7 @@ namespace SpotifyWebApi.Api.Playlist
         public async Task<FullPlaylist> GetPlaylist(SpotifyUri playlistUri, string market)
         {
             var r = await ApiClient.GetAsync<FullPlaylist>(
-                        MakeUri($"users/{playlistUri.UserId}/playlists/{playlistUri.Id}{AddMarketCode("?", market)}"),
+                        MakeUri($"playlists/{playlistUri.Id}{AddMarketCode("?", market)}"),
                         this.Token);
 
             if (r.Response is FullPlaylist res)
@@ -69,7 +69,7 @@ namespace SpotifyWebApi.Api.Playlist
             SpotifyUri playlistUri, int maxResults, int offset, string market)
         {
             var r = await ApiClient.GetAsync<Paging<PlaylistTrack>>(
-                        MakeUri($"users/{playlistUri.UserId}/playlists/{playlistUri.Id}/tracks?limit=100&offset={offset}{AddMarketCode("&", market)}"), this.Token);
+                        MakeUri($"playlists/{playlistUri.Id}/tracks?limit=100&offset={offset}{AddMarketCode("&", market)}"), this.Token);
 
             if (r.Response is Paging<PlaylistTrack> res)
             {
